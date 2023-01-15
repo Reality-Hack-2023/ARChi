@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "1bc58de9-0cc9-6122-c803-253c6ba5c897",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "sweater_baseColor_plain",
+    "objGuid": "Guid(3045756472545437573, 7244015819626187165)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

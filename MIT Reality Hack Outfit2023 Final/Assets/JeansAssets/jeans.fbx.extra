@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "7aa4ef1f-ee27-8059-cc63-6342d7ca06ff",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "jeans",
+    "objGuid": "Guid(17242822951977194105, 5982673986758522274)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "0c569a1d-f314-1133-019e-9bfdf0435327"
+    ],
+    "meshGUIDs": [
+      "d47b7cd7-2530-eed9-35e4-f4b4196e3b55"
+    ],
+    "animazGUIDs": []
+  }
+]

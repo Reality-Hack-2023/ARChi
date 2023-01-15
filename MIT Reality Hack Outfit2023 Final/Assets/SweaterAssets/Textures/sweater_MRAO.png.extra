@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "495535cc-041e-2701-6e51-0f12e620f3eb",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "sweater_MRAO",
+    "objGuid": "Guid(15658315041265339362, 3825384698339291325)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

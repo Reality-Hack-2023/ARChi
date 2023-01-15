@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "0b311203-69fd-86ea-20d3-84e3f98c1f6d",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "sweater",
+    "objGuid": "Guid(10252391183703281217, 5560927595537459635)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "91f33e21-61c4-1ce5-0828-56d70544a47c"
+    ],
+    "meshGUIDs": [
+      "33b91502-8dfd-86a4-d0c6-1c689839e238"
+    ],
+    "animazGUIDs": []
+  }
+]

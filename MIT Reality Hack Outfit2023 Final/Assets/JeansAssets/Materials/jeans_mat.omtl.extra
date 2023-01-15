@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0c569a1d-f314-1133-019e-9bfdf0435327",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "jeans_mat",
+    "objGuid": "Guid(11119366823481803937, 15766501736859423900)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(12559751401946221321, 10121369455835282621)"
+  }
+]

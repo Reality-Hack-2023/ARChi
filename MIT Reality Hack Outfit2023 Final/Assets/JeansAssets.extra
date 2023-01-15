@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "fffab513-3a87-6b8f-10d3-dbdd21095e85",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "JeansAssets",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "b4f27c0e-4242-6bdd-11a6-9d0128e2144e",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "bodyOccluder",
+    "objGuid": "Guid(9028907850364528582, 11036259886552565386)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "6c0d81ac-05ab-230d-17bf-4cc92cb7f5dd"
+    ],
+    "meshGUIDs": [
+      "9fcff49f-b542-4b9d-76a1-e667fcefc32e"
+    ],
+    "animazGUIDs": []
+  }
+]
