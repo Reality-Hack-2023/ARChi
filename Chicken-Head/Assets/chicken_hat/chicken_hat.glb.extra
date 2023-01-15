@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "e6420a4c-1bf9-0a04-19c6-eb08b4d56b4d",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "chicken_hat",
+    "objGuid": "Guid(5215166485224535716, 11184374176046149802)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "830bdff6-d78c-8c01-6de7-c74e70a72053"
+    ],
+    "meshGUIDs": [
+      "ac75c9ab-e312-45c5-d4d8-c7109cb7f466"
+    ],
+    "animazGUIDs": []
+  }
+]

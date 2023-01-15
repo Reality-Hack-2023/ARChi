@@ -1,0 +1,37 @@
+[
+  {
+    "guid": {
+      "a": "1b35160d-cebf-8e7d-58a8-3f1809928018",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "alienHat",
+    "objGuid": "Guid(12269310867637666247, 7367681971478186166)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "2df97145-9a81-e03b-4587-4abd88503b96"
+    ],
+    "meshGUIDs": [
+      "fc32f9db-3097-23f5-dfc1-08e327e47255",
+      "050bb2d6-fd8d-7fe5-d141-aa2d344655a6",
+      "76623798-dc30-d21b-eb9b-c6a30c774829",
+      "1093070f-595d-3422-2bd7-69d8bddec1c5",
+      "9eb91a9b-b405-bde5-fecc-d68fc59cc359",
+      "b4afe27a-b9a1-e19c-e8b1-f8ff21a7d6b9",
+      "db428846-874c-19ce-31ad-d9113c621980",
+      "e9c45b7f-0931-f906-da03-b87fdc951079"
+    ],
+    "animazGUIDs": [
+      "3000f9c4-6f7a-1aa0-6ab4-1dc71ea60b87",
+      "e42fadb3-d970-b1af-d226-71fb38295212",
+      "a1ddd88d-18f1-5050-c6a7-b999bb3679b6",
+      "824d6084-ade3-df3f-fb4c-047038746700"
+    ]
+  }
+]

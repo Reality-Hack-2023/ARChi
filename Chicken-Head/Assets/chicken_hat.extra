@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "e0e6d289-c4b2-8531-7b9e-f58b95e86a24",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "chicken_hat",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
