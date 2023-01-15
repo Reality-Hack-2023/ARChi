@@ -1,0 +1,630 @@
+[
+  {
+    "guid": {
+      "a": "e226e120-45c2-df9d-c687-26b0f35cc32b",
+      "b": ""
+    },
+    "objGuid": "Guid(17892678610801857370, 559697082159424149)",
+    "extraType": "Entity",
+    "name": "Camera",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "06426de3-9794-b596-68f5-ad8b19301597",
+      "b": ""
+    },
+    "objGuid": "Guid(1029434961439008335, 6372224128272086966)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "c2ac6370-04ab-84d2-9e29-ab5ee8fabb24",
+      "b": ""
+    },
+    "objGuid": "Guid(12556560734000964803, 7508859945702231687)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "preview_camera",
+    "expanded": true,
+    "editable": true,
+    "usage": "Common"
+  },
+  {
+    "guid": {
+      "a": "89dd8f8f-8e69-f589-7f07-485734374bfd",
+      "b": ""
+    },
+    "objGuid": "Guid(15583524219358127554, 6494071955460389809)",
+    "extraType": "PostProcess",
+    "name": "Post Process",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_postprocess",
+    "expanded": true,
+    "editable": true,
+    "postProcessList": [
+      7,
+      2
+    ],
+    "objectGuids": []
+  },
+  {
+    "guid": {
+      "a": "9a9d8627-dd4a-eb18-89d4-aa113c6da202",
+      "b": ""
+    },
+    "objGuid": "Guid(3261253174792506660, 16680708562180406145)",
+    "extraType": "Entity",
+    "name": "Directional Light",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "45f1c669-911b-a4a0-0d69-a797fc00616a",
+      "b": ""
+    },
+    "objGuid": "Guid(10827949423485651365, 543587625606924957)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      299.9999694824219,
+      269.99993896484375,
+      0.000020490573660936207
+    ],
+    "rotation": [
+      -0.3535534143447876,
+      -0.6123725175857544,
+      -0.3535534143447876,
+      0.6123722791671753
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "e018bf06-819b-4661-b6d4-baa0335f107b",
+      "b": ""
+    },
+    "objGuid": "Guid(13350271480239526722, 3096813384112271290)",
+    "extraType": "DirectionalLight",
+    "name": "Directional Light",
+    "rttiType": "DirectionalLight",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "object_directional",
+    "expanded": true,
+    "editable": true,
+    "shadowAdvanceExpanded": false
+  },
+  {
+    "guid": {
+      "a": "7d4561a3-ab98-2e90-2aed-fe42cdf4efc6",
+      "b": ""
+    },
+    "objGuid": "Guid(2253815487157168038, 13727790801446539406)",
+    "extraType": "Entity",
+    "name": "Head Tracker",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "8634f5b0-82cc-a277-9548-80678787f637",
+      "b": ""
+    },
+    "objGuid": "Guid(6649728830845122681, 12730707836961908112)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "1c0bcae5-fa40-7b7b-a9f0-5727d337c1c7",
+      "b": ""
+    },
+    "objGuid": "Guid(2397088207002529551, 4794164705482479534)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "aeaf7636-6122-29ea-2198-4a9a2e6d7a26",
+      "b": ""
+    },
+    "objGuid": "Guid(92101444948850465, 7197934223806118528)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "a5a7fd29-c8da-fea0-92e3-56c9aea6ac33",
+      "b": ""
+    },
+    "objGuid": "Guid(20359478246392894, 7015476170195229331)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "62f234ba-cec4-2a94-0180-bf4a990bd6e9",
+      "b": ""
+    },
+    "objGuid": "Guid(14217683377192401092, 1256209793204713878)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "445c8555-34a7-05ee-acc7-cadae6ae4a33",
+      "b": ""
+    },
+    "objGuid": "Guid(12775041462776745090, 11386041734261920134)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "af3f6378-ce64-9884-4796-afcd35557823",
+      "b": ""
+    },
+    "objGuid": "Guid(10902886527993346287, 17251987034660739487)",
+    "extraType": "FaceCapture",
+    "name": "Face Binding",
+    "anchor": "Face Center",
+    "rttiType": "FaceCapture",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_facebinding",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "638f1f8e-0e18-4aaa-1a7f-de194884f87e",
+      "b": ""
+    },
+    "objGuid": "Guid(16303968013963210703, 1492737598742028988)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_camera",
+    "expanded": false,
+    "editable": true,
+    "usage": "Common"
+  },
+  {
+    "guid": {
+      "a": "6b416608-362c-3126-e8f0-4ca3826adb51",
+      "b": ""
+    },
+    "objGuid": "Guid(1388209328636901051, 3826312238548079022)",
+    "extraType": "PostProcess",
+    "name": "Post Process",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_postprocess",
+    "expanded": true,
+    "editable": true,
+    "postProcessList": [
+      5,
+      7,
+      10,
+      2
+    ],
+    "objectGuids": []
+  },
+  {
+    "guid": {
+      "a": "c3774f02-1332-467e-2232-273fa202d957",
+      "b": ""
+    },
+    "objGuid": "Guid(17818722351689133603, 11894460269325563529)",
+    "extraType": "FilterV2",
+    "name": "Filter",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "object_filter",
+    "expanded": false,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "a6764688-6fa2-6192-c6d4-c7fe5d1f435f",
+      "b": ""
+    },
+    "objGuid": "Guid(3189149133488875380, 6267770095613341374)",
+    "extraType": "Entity",
+    "name": "Head",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "551a2a75-0c8e-db51-a0d5-504cc8848c79",
+      "b": ""
+    },
+    "objGuid": "Guid(4417965295374796170, 12282488638266347944)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": true
+  },
+  {
+    "guid": {
+      "a": "1b518bc4-7800-13e5-87d1-17a4382c6803",
+      "b": ""
+    },
+    "objGuid": "Guid(1171345766260897306, 5565136322911126968)",
+    "extraType": "Entity",
+    "name": "Sphere",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "d7448633-7959-66a7-a808-4358ec0be9cd",
+      "b": ""
+    },
+    "objGuid": "Guid(14143870627909543817, 5060862935922317461)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "aed323a1-c70b-614a-696a-1038ee2d5636",
+      "b": ""
+    },
+    "objGuid": "Guid(8956000412952242003, 7989801167613622408)",
+    "extraType": "Entity",
+    "name": "Sphere (1)",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "10306600-23aa-31b6-40a5-14b4295bb985",
+      "b": ""
+    },
+    "objGuid": "Guid(2399996886398693194, 9460454280995444920)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "f4a6ad87-1a6b-77f7-747b-e91f0c949ddc",
+      "b": ""
+    },
+    "objGuid": "Guid(1316142392860897733, 7697032578929319839)",
+    "extraType": "Entity",
+    "name": "Sphere (2)",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "2ab50023-e7bd-fc29-5b80-bfc8b4e22538",
+      "b": ""
+    },
+    "objGuid": "Guid(8018153408965743943, 3657828120144662697)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "843e45ba-0342-00c4-7b77-2517cf5148a2",
+      "b": ""
+    },
+    "objGuid": "Guid(4415599531644151728, 18035388623064248484)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_camera",
+    "expanded": true,
+    "editable": true,
+    "usage": "Common"
+  },
+  {
+    "guid": {
+      "a": "16459626-4345-d35d-229f-14185cfb5a66",
+      "b": ""
+    },
+    "objGuid": "Guid(8019742427301211433, 14968734799434987648)",
+    "extraType": "Entity",
+    "name": "Sphere (3)",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "fa8d67da-2192-19d3-e146-294025bd3bd9",
+      "b": ""
+    },
+    "objGuid": "Guid(15225325576329014043, 10576971919630195619)",
+    "extraType": "MeshRenderer",
+    "name": "Mesh Renderer",
+    "rttiType": "MeshRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_meshrenderer",
+    "expanded": true,
+    "editable": true,
+    "visualization": false
+  },
+  {
+    "guid": {
+      "a": "412e763f-81c7-64ce-4842-6db0d6da1ea9",
+      "b": ""
+    },
+    "objGuid": "Guid(2471731040323170510, 8005922040119748755)",
+    "extraType": "Entity",
+    "name": "Hand Tracker",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none"
+  },
+  {
+    "guid": {
+      "a": "9dacdc4b-fbce-d65e-bbb1-aa19054c0869",
+      "b": ""
+    },
+    "objGuid": "Guid(17313646383025404297, 7433312785609228450)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "component_transform",
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "14b6cf34-886b-a4d0-7796-d063e8839de7",
+      "b": ""
+    },
+    "objGuid": "Guid(5278970575694848303, 9516148726888192930)",
+    "extraType": "HandCapture",
+    "name": "Hand Tracker",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "displayKey": "inspector_add_handtracker",
+    "expanded": true,
+    "editable": true,
+    "anchor": 0,
+    "advancedSetting": false,
+    "distance": 20,
+    "rotateZ": false
+  }
+]

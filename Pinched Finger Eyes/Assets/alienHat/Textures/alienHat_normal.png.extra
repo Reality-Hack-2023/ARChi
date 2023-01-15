@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "02680001-32a0-ebdb-c07c-9133c8082372",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "alienHat_normal",
+    "objGuid": "Guid(12485695566103705208, 2620345764452477069)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 1,
+    "wrapModeT": 1,
+    "wrapModeR": 1,
+    "premultiplyAlpha": true
+  }
+]

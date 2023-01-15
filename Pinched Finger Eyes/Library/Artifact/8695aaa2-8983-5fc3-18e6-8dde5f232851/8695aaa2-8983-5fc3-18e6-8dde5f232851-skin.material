@@ -1,0 +1,46 @@
+%YAML 1.1
+--- !Material &1
+name: alienHat_mat
+guid: {a: 4054702951842896792, b: 16926266774937177278}
+xshader: {localId: 1, path: 8695aaa2-8983-5fc3-18e6-8dde5f232851--8695aaa2-8983-5fc3-18e6-8dde5f232851.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 7948023276638313394, b: 15868546928170259379}
+  floatmap:
+    __class: Map
+    _AmbientIntensity: 1
+    _AmbientRotation: 0
+    _EmissiveIntensity: 0
+    _Metallic: 0
+    _NormalIntensity: 1
+    _Occlusion: 1
+    _Rotation: 0
+    _Roughness: 0.5
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+    _EmissiveColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 76a0769f-169d-7cd8-91d7-02650227c287--76a0769f-169d-7cd8-91d7-02650227c287.png}
+    _AmbientTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000020--00000000-0000-0000-0000-000000000020.png}
+    _EmissiveTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _MRAOTexture: {localId: 1, path: 4fc3157c-4115-3013-462f-6a0c8dc61826--4fc3157c-4115-3013-462f-6a0c8dc61826.png}
+    _NormalTexture: {localId: 1, path: 02680001-32a0-ebdb-c07c-9133c8082372--02680001-32a0-ebdb-c07c-9133c8082372.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

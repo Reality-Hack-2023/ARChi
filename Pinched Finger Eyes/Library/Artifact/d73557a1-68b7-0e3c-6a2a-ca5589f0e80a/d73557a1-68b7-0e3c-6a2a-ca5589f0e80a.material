@@ -1,0 +1,45 @@
+%YAML 1.1
+--- !Material &1
+name: Simple Lighting (1)
+guid: {a: 1893888931208531472, b: 18416340470309728133}
+xshader: {localId: 1, path: d73557a1-68b7-0e3c-6a2a-ca5589f0e80a--d73557a1-68b7-0e3c-6a2a-ca5589f0e80a.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 11835918010515790517, b: 15328848541623281570}
+  floatmap:
+    __class: Map
+    _AmbientIntensity: 0.25
+    _EmissiveIntensity: 0
+    _NormalIntensity: 1
+    _Rotation: 0
+    _SpecularIntensity: 1
+    _SpecularPower: 32
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+    _AmbientColor: {x: 1, y: 1, z: 1, w: 1}
+    _EmissiveColor: {x: 1, y: 1, z: 1, w: 1}
+    _SpecularColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _EmissiveTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _NormalTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001f--00000000-0000-0000-0000-00000000001f.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _SpecularTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

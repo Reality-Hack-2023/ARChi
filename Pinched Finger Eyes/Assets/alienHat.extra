@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "f749423a-91dc-c0b6-e8c4-426e0d00965b",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "alienHat",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

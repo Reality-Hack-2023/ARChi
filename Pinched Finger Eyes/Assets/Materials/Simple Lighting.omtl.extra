@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "e160c4c4-2443-4240-1df5-a195c27faad7",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Simple Lighting",
+    "objGuid": "Guid(6936085903020130854, 17453499479340709266)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13280426948775872455, 10122857128055557811)"
+  }
+]

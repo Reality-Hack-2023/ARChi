@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "8cfeb94e-ee47-d02a-964c-d939adbe79ab",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Standard PBR",
+    "objGuid": "Guid(4993855284314295931, 17984573339791530174)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(2107991757831776748, 12379107284271231641)"
+  }
+]
