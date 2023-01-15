@@ -1,0 +1,39 @@
+[
+  {
+    "guid": {
+      "a": "2df97cda-6f76-f110-b828-7266a22de515",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Tac_Helmet_Showcase",
+    "objGuid": "Guid(3695053370593221711, 15147639948680117674)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "781ac4e5-60a9-e2b2-1781-76879f36a215",
+      "89d68450-de6c-3140-478e-cf702ee7b0b9"
+    ],
+    "meshGUIDs": [
+      "414ccd71-4d54-5d33-5baa-2672a4023707",
+      "dcd1f817-7bb9-f74a-bc7c-f75d0a5abf96",
+      "5d91c0e2-8f2e-482c-bad6-bebe58b3de3b",
+      "cb9631f6-50e9-1e50-e560-dab2801f5293",
+      "acd2b618-e4bb-6d1c-dddf-a45b737c72e0",
+      "ee117350-d5df-2c8c-f548-4492d0a0470e"
+    ],
+    "animazGUIDs": [
+      "6e41dba4-a840-127a-c225-adb100724cb8",
+      "a25203c2-0e21-b51a-0200-13fa76c86d91",
+      "bbc73228-bb82-2ef8-361a-3384ef6f9744",
+      "f0171c76-02b5-feec-58bd-1654ee4058e7",
+      "735b6721-ca6c-e1f5-9773-9918532cf92b",
+      "68801715-c6d8-8a89-74e0-d0282e841653",
+      "64ae5268-c0dd-4bd9-91dd-581cbb660ba2"
+    ]
+  }
+]

@@ -1,0 +1,3359 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 17892678610801857370, b: 559697082159424149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 12556560734000964803, b: 7508859945702231687}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 10
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 3261253174792506660, b: 16680708562180406145}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 13350271480239526722, b: 3096813384112271290}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: Head Tracker
+    guid: {a: 6504615249774449951, b: 3605384986816010424}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 16306839712150129423, b: 17451206375442360480}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 4126384250848547258, b: 16451739284501229497}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 2612610686214348328, b: 1627670267279599289}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Tac_Helmet_Showcase
+    guid: {a: 12701878469667724771, b: 11433115371175114373}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 10541695192769688720, b: 8300158548882335149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+      - __class: Animator
+        name: ""
+        guid: {a: 12630739371326520173, b: 1233900428021363622}
+        enabled: true
+        animations:
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz-1_Flashlight.006|FlashlightAction.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz0_Flashlight.006|FlashlightAction.001.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz1_Flashlight.006|FlashlightAction.002.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz2_Flashlight.006|FlashlightAction.003.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz3_Flashlight.006|FlashlightAction.004.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz4_Flashlight.006|FlashlightAction.005.animaz}
+          - {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Animaz5_Flashlight.006|FlashlightAction.007.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_Flashlight.006|FlashlightAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: Helmet.002
+    guid: {a: 7298221698799483604, b: 12580149113180225173}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 13638651073223383533, b: 8025050308899943615}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 781ac4e5-60a9-e2b2-1781-76879f36a215--781ac4e5-60a9-e2b2-1781-76879f36a215.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Helmet.002.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Flashlight.006
+    guid: {a: 8164079325298687569, b: 9009286448040536741}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: MeshRenderer
+        name: mesh1_renderer
+        guid: {a: 12343491616597391246, b: 18430030387442987654}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 89d68450-de6c-3140-478e-cf702ee7b0b9--89d68450-de6c-3140-478e-cf702ee7b0b9.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Flashlight.006.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Helmet Side Clips.003
+    guid: {a: 6143557097231066411, b: 16703073997452399498}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+      - __class: MeshRenderer
+        name: mesh2_renderer
+        guid: {a: 11623461410620128595, b: 5373770944631103144}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 89d68450-de6c-3140-478e-cf702ee7b0b9--89d68450-de6c-3140-478e-cf702ee7b0b9.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Helmet Side Clips.003.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Battery Pack.007
+    guid: {a: 12052811390758603005, b: 17481632429618428562}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+      - __class: MeshRenderer
+        name: mesh3_renderer
+        guid: {a: 11622534106651941322, b: 12204518760586670746}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 89d68450-de6c-3140-478e-cf702ee7b0b9--89d68450-de6c-3140-478e-cf702ee7b0b9.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Battery Pack.007.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Headphones
+    guid: {a: 8740195120217267258, b: 14502336078279150744}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: MeshRenderer
+        name: mesh4_renderer
+        guid: {a: 5855510949588359561, b: 5984700593156738480}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 89d68450-de6c-3140-478e-cf702ee7b0b9--89d68450-de6c-3140-478e-cf702ee7b0b9.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Headphones.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: NVG.004
+    guid: {a: 8018395490811102972, b: 17845215201923745197}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: MeshRenderer
+        name: mesh5_renderer
+        guid: {a: 18393115058075446950, b: 17069118548830016674}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 89d68450-de6c-3140-478e-cf702ee7b0b9--89d68450-de6c-3140-478e-cf702ee7b0b9.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--NVG.004.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: male_LOD0
+    guid: {a: 16377117021595195661, b: 8633835262455343235}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: root
+    guid: {a: 16303785766512849416, b: 9456664625646312884}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: pelvis
+    guid: {a: 17602690216288252044, b: 1225390125106364317}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+    layer: 0
+  - __class: Entity
+    name: spine_01
+    guid: {a: 2614503903926520147, b: 11035209383296409993}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: spine_02
+    guid: {a: 3335914739005986659, b: 11139394181664369808}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+    layer: 0
+  - __class: Entity
+    name: spine_03
+    guid: {a: 7440544076841297961, b: 3868026389044319139}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+    layer: 0
+  - __class: Entity
+    name: breast_l
+    guid: {a: 1967697910401208649, b: 5726894187498794382}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: breast_l_end
+    guid: {a: 16955177172604272870, b: 7659499240421459103}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+    layer: 0
+  - __class: Entity
+    name: neck_01
+    guid: {a: 14502819597657277080, b: 1746775112729537436}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: head
+    guid: {a: 1027681013906715911, b: 13888512912349434254}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: head_end
+    guid: {a: 11189682555563637102, b: 17714910185520269957}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: clavicle_l
+    guid: {a: 17457123164155672307, b: 12055509809618258346}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: upperarm_l
+    guid: {a: 3910435914701711017, b: 12121385405157982393}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_l
+    guid: {a: 15514020965945770423, b: 7757167980643315072}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+    layer: 0
+  - __class: Entity
+    name: hand_l
+    guid: {a: 9819621707970135163, b: 17137438891343497915}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+    layer: 0
+  - __class: Entity
+    name: index_01_l
+    guid: {a: 14214421163926828969, b: 12731415361141743494}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: index_02_l
+    guid: {a: 6504720124622675849, b: 15743430972105017508}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+    layer: 0
+  - __class: Entity
+    name: index_03_l
+    guid: {a: 14790802375071987255, b: 9738800163196154779}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: index_03_l_end
+    guid: {a: 3047380200318573771, b: 12577036195137313161}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+    layer: 0
+  - __class: Entity
+    name: middle_01_l
+    guid: {a: 5638754373769546905, b: 6731410115121592496}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+    layer: 0
+  - __class: Entity
+    name: middle_02_l
+    guid: {a: 5714434484856334261, b: 3282442764277417135}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+    layer: 0
+  - __class: Entity
+    name: middle_03_l
+    guid: {a: 4125925422669054342, b: 17037289643796918682}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+    layer: 0
+  - __class: Entity
+    name: middle_03_l_end
+    guid: {a: 14791275259444767763, b: 17663482592825382534}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+    layer: 0
+  - __class: Entity
+    name: pinky_01_l
+    guid: {a: 13206496968307605064, b: 346811700870188187}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 37}
+    layer: 0
+  - __class: Entity
+    name: pinky_02_l
+    guid: {a: 2542383458920641403, b: 18169863068949758118}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+    layer: 0
+  - __class: Entity
+    name: pinky_03_l
+    guid: {a: 8163781305503474403, b: 9910933090474026653}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+    layer: 0
+  - __class: Entity
+    name: pinky_03_l_end
+    guid: {a: 12557262855631191732, b: 4398753699895145375}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+    layer: 0
+  - __class: Entity
+    name: ring_01_l
+    guid: {a: 8092658317658464544, b: 2978230483273703320}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+    layer: 0
+  - __class: Entity
+    name: ring_02_l
+    guid: {a: 12847620256121813573, b: 5711944550227668365}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+    layer: 0
+  - __class: Entity
+    name: ring_03_l
+    guid: {a: 7299794665231304229, b: 496390584847624322}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+    layer: 0
+  - __class: Entity
+    name: ring_03_l_end
+    guid: {a: 17602920324949155749, b: 8059944476174538396}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+    layer: 0
+  - __class: Entity
+    name: thumb_01_l
+    guid: {a: 1821815678679395535, b: 8087344418044870037}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+    layer: 0
+  - __class: Entity
+    name: thumb_02_l
+    guid: {a: 2616107109902914912, b: 1119535953317352119}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+    layer: 0
+  - __class: Entity
+    name: thumb_03_l
+    guid: {a: 10541120323723636254, b: 17749760126881794199}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+    layer: 0
+  - __class: Entity
+    name: thumb_03_l_end
+    guid: {a: 11765214465590535874, b: 12765141434535203986}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_twist_01_l
+    guid: {a: 15297557175281209601, b: 15284114471660805527}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_twist_01_l_end
+    guid: {a: 451413840585475832, b: 208320737239703969}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+    layer: 0
+  - __class: Entity
+    name: upperarm_twist_01_l
+    guid: {a: 15514280480251577746, b: 13319853708480100488}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+    layer: 0
+  - __class: Entity
+    name: upperarm_twist_01_l_end
+    guid: {a: 14790440078879993867, b: 8124566232821633713}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: breast_r
+    guid: {a: 14073331757399360599, b: 18341430853863853701}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 53}
+    layer: 0
+  - __class: Entity
+    name: breast_r_end
+    guid: {a: 11475174528778179963, b: 13970003843568047274}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 54}
+    layer: 0
+  - __class: Entity
+    name: clavicle_r
+    guid: {a: 7516145032938804499, b: 3652115580109047686}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 55}
+    layer: 0
+  - __class: Entity
+    name: upperarm_r
+    guid: {a: 13568755962536363377, b: 4496744520136864649}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 56}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_r
+    guid: {a: 13565515634105938522, b: 14423604359213599122}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 57}
+    layer: 0
+  - __class: Entity
+    name: hand_r
+    guid: {a: 17673070523410032761, b: 801388372571504574}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 58}
+    layer: 0
+  - __class: Entity
+    name: index_01_r
+    guid: {a: 6867021986456115239, b: 4046737589619714443}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 59}
+    layer: 0
+  - __class: Entity
+    name: index_02_r
+    guid: {a: 14718041342531761589, b: 7692911628562636935}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 60}
+    layer: 0
+  - __class: Entity
+    name: index_03_r
+    guid: {a: 14937651510631362762, b: 15294935055754853802}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 61}
+    layer: 0
+  - __class: Entity
+    name: index_03_r_end
+    guid: {a: 3838821485103543681, b: 10884934269855821205}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 62}
+    layer: 0
+  - __class: Entity
+    name: middle_01_r
+    guid: {a: 3912327539577981314, b: 6725799112252334740}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 63}
+    layer: 0
+  - __class: Entity
+    name: middle_02_r
+    guid: {a: 16667132275428570318, b: 7923869605643715489}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 64}
+    layer: 0
+  - __class: Entity
+    name: middle_03_r
+    guid: {a: 9818208090026457578, b: 10989852937922968493}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 65}
+    layer: 0
+  - __class: Entity
+    name: middle_03_r_end
+    guid: {a: 5567253201376453428, b: 14854727667136464259}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 66}
+    layer: 0
+  - __class: Entity
+    name: pinky_01_r
+    guid: {a: 8884327916079779979, b: 15643880736990509468}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+    layer: 0
+  - __class: Entity
+    name: pinky_02_r
+    guid: {a: 5714327976915776175, b: 4057589529256036265}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+    layer: 0
+  - __class: Entity
+    name: pinky_03_r
+    guid: {a: 1965416298560410056, b: 16380283344821690799}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+    layer: 0
+  - __class: Entity
+    name: pinky_03_r_end
+    guid: {a: 17601663508487455887, b: 11718028070492839568}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+    layer: 0
+  - __class: Entity
+    name: ring_01_r
+    guid: {a: 10613910718800302645, b: 3691984819670863531}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+    layer: 0
+  - __class: Entity
+    name: ring_02_r
+    guid: {a: 8956190499591263620, b: 12928694398305489563}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+    layer: 0
+  - __class: Entity
+    name: ring_03_r
+    guid: {a: 7874543933168854242, b: 9999966995620908428}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 73}
+    layer: 0
+  - __class: Entity
+    name: ring_03_r_end
+    guid: {a: 5352159603851205408, b: 11052708395370974897}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 74}
+    layer: 0
+  - __class: Entity
+    name: thumb_01_r
+    guid: {a: 1893809720897003845, b: 11333719728595843220}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 75}
+    layer: 0
+  - __class: Entity
+    name: thumb_02_r
+    guid: {a: 16739653199378439302, b: 13841995983496560555}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 76}
+    layer: 0
+  - __class: Entity
+    name: thumb_03_r
+    guid: {a: 5351630859228169130, b: 8790540033192012449}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 77}
+    layer: 0
+  - __class: Entity
+    name: thumb_03_r_end
+    guid: {a: 2184032156173331501, b: 890844963821630877}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 78}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_twist_01_r
+    guid: {a: 15655357789859281244, b: 15495329707652433565}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 79}
+    layer: 0
+  - __class: Entity
+    name: lowerarm_twist_01_r_end
+    guid: {a: 16235286625915550980, b: 7476412657936849282}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 80}
+    layer: 0
+  - __class: Entity
+    name: upperarm_twist_01_r
+    guid: {a: 3982666804238658571, b: 5480375137920921255}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 81}
+    layer: 0
+  - __class: Entity
+    name: upperarm_twist_01_r_end
+    guid: {a: 4272525262715391533, b: 3946096361022888884}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 82}
+    layer: 0
+  - __class: Entity
+    name: belly
+    guid: {a: 6865041114433439867, b: 5357029179071036039}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 83}
+    layer: 0
+  - __class: Entity
+    name: belly_end
+    guid: {a: 4777044676053073835, b: 17382736283581836475}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 84}
+    layer: 0
+  - __class: Entity
+    name: thigh_l
+    guid: {a: 20365286987782157, b: 6195712763781733815}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 85}
+    layer: 0
+  - __class: Entity
+    name: calf_l
+    guid: {a: 1822456731250970008, b: 12731037061013067137}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 86}
+    layer: 0
+  - __class: Entity
+    name: foot_l
+    guid: {a: 18322038218730955234, b: 6727800846606560191}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 87}
+    layer: 0
+  - __class: Entity
+    name: ball_l
+    guid: {a: 6505272648885833198, b: 10484090178410981287}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 88}
+    layer: 0
+  - __class: Entity
+    name: ball_l_end
+    guid: {a: 16594574671624735022, b: 8824934408757058973}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 89}
+    layer: 0
+  - __class: Entity
+    name: calf_twist_01_l
+    guid: {a: 15944445442677181135, b: 9140575903416576901}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 90}
+    layer: 0
+  - __class: Entity
+    name: calf_twist_01_l_end
+    guid: {a: 12844890977924858859, b: 17546249181746635416}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 91}
+    layer: 0
+  - __class: Entity
+    name: thigh_twist_01_l
+    guid: {a: 2398352877556736348, b: 15935036392686684087}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 92}
+    layer: 0
+  - __class: Entity
+    name: thigh_twist_01_l_end
+    guid: {a: 13567835310013766189, b: 5398094999497627063}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 93}
+    layer: 0
+  - __class: Entity
+    name: thigh_r
+    guid: {a: 3479098080297761291, b: 267413372156339331}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 94}
+    layer: 0
+  - __class: Entity
+    name: calf_r
+    guid: {a: 15945099102683951007, b: 267646448823758774}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 95}
+    layer: 0
+  - __class: Entity
+    name: foot_r
+    guid: {a: 16377735855146816226, b: 12090310285611765378}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 96}
+    layer: 0
+  - __class: Entity
+    name: ball_r
+    guid: {a: 11478959417164370135, b: 15660413701736822673}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 97}
+    layer: 0
+  - __class: Entity
+    name: ball_r_end
+    guid: {a: 14289572870022111768, b: 15320237809372357787}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 98}
+    layer: 0
+  - __class: Entity
+    name: calf_twist_01_r
+    guid: {a: 10899576145657564726, b: 615865915648811191}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 99}
+    layer: 0
+  - __class: Entity
+    name: calf_twist_01_r_end
+    guid: {a: 13497089141956586580, b: 10117036318633902736}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 100}
+    layer: 0
+  - __class: Entity
+    name: thigh_twist_01_r
+    guid: {a: 7875587046451306461, b: 9545697971727144843}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 101}
+    layer: 0
+  - __class: Entity
+    name: thigh_twist_01_r_end
+    guid: {a: 16375349468025442361, b: 6654458798968486797}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 102}
+    layer: 0
+  - __class: Entity
+    name: ik_foot_root
+    guid: {a: 11619539348172123749, b: 15618463652187738792}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 103}
+    layer: 0
+  - __class: Entity
+    name: ik_foot_l
+    guid: {a: 9317094574104028814, b: 968644838108964016}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 104}
+    layer: 0
+  - __class: Entity
+    name: ik_foot_l_end
+    guid: {a: 14574448211610799736, b: 4740237755700818068}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 105}
+    layer: 0
+  - __class: Entity
+    name: ik_foot_r
+    guid: {a: 16375700772658980552, b: 5775572922917762436}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 106}
+    layer: 0
+  - __class: Entity
+    name: ik_foot_r_end
+    guid: {a: 8233156494926998687, b: 3453402628050596005}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 107}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_root
+    guid: {a: 6723212511758114851, b: 10086116481497045165}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 108}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_gun
+    guid: {a: 13061252110445673768, b: 5856351032803264139}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 109}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_l
+    guid: {a: 9457714283816551189, b: 11896649206033351857}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 110}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_l_end
+    guid: {a: 15582796187673740020, b: 9899421355901341107}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 111}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_r
+    guid: {a: 6865269936044509754, b: 2911798306014577298}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 112}
+    layer: 0
+  - __class: Entity
+    name: ik_hand_r_end
+    guid: {a: 6792055549667330591, b: 3421019779310043573}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 113}
+    layer: 0
+  - __class: Entity
+    name: Laser2321d
+    guid: {a: 6578761927582299153, b: 6576701005551509150}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 120}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 2975709540345760087, b: 833791889504103602}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 121}
+    layer: 0
+  - __class: Entity
+    name: Cylinder
+    guid: {a: 16233639267420584588, b: 8308265604786915988}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 122}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 11116468372979848920, b: 10873844103429889152}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: dead4c36-60ad-4b42-66bf-c0b31e4548ef--dead4c36-60ad-4b42-66bf-c0b31e4548ef.material}
+        sortingOrder: 13
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 16306507029088625122, b: 8614436724176952253}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 125}
+    layer: 0
+  - __class: Entity
+    name: Cylinder
+    guid: {a: 12919175282250532389, b: 8935037107088324250}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 126}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 9389357394550513731, b: 9191960356963271808}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: dead4c36-60ad-4b42-66bf-c0b31e4548ef--dead4c36-60ad-4b42-66bf-c0b31e4548ef.material}
+        sortingOrder: 15
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Laser2321d (1)
+    guid: {a: 6722835214864504998, b: 8842824461899523253}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 124}
+    layer: 0
+  - __class: Entity
+    name: Cylinder (1)
+    guid: {a: 4990000006033786236, b: 4286650392633221269}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 123}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 17962721098160265449, b: 16977974326401501597}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: a1235cf6-507b-2a3c-e399-b92905ec550b--a1235cf6-507b-2a3c-e399-b92905ec550b.material}
+        sortingOrder: 14
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cylinder (1)
+    guid: {a: 18180329817461480937, b: 4189334588660722059}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 127}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 9100589102392227596, b: 18255298452720846761}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: a1235cf6-507b-2a3c-e399-b92905ec550b--a1235cf6-507b-2a3c-e399-b92905ec550b.material}
+        sortingOrder: 16
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Plane
+    guid: {a: 7944804203417153550, b: 17412529294950629025}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 116}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 5714296886628001144, b: 16705063939135316147}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 64ebc619-15db-b0f5-70e7-1c9c5a9777c9--64ebc619-15db-b0f5-70e7-1c9c5a9777c9.material}
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 2614763955831264473, b: 4875306025795159427}
+        enabled: true
+        animSeq: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+        texName: _AlbedoTexture
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          frame_00_delay-0.1s: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+    layer: 0
+  - __class: Entity
+    name: Headphones (1)
+    guid: {a: 6433416149888618617, b: 17484410587655052969}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 114}
+      - __class: MeshRenderer
+        name: mesh4_renderer
+        guid: {a: 8379142208710382475, b: 9238687716096944569}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 21af4b1a-8619-41b8-adc2-5aa8681aae3f--21af4b1a-8619-41b8-adc2-5aa8681aae3f.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--Headphones.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: NVG.004 (1)
+    guid: {a: 7874141525517886480, b: 18176691828885059471}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 115}
+      - __class: MeshRenderer
+        name: mesh5_renderer
+        guid: {a: 9028982592052061247, b: 18014537804677923248}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 93ab2bf9-9b7c-83a1-3f65-61d9d9439e82--93ab2bf9-9b7c-83a1-3f65-61d9d9439e82.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 2df97cda-6f76-f110-b828-7266a22de515--NVG.004.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Scene Object
+    guid: {a: 12124236418661403509, b: 7764758117210174124}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 119}
+    layer: 0
+  - __class: Entity
+    name: Plane (1)
+    guid: {a: 741858991144402046, b: 13328217624103554436}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 128}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 1027877671286199672, b: 842002422709330327}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 64ebc619-15db-b0f5-70e7-1c9c5a9777c9--64ebc619-15db-b0f5-70e7-1c9c5a9777c9.material}
+        sortingOrder: 10
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 11693510294049766263, b: 16713870391330241701}
+        enabled: true
+        animSeq: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+        texName: _AlbedoTexture
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          frame_00_delay-0.1s: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+    layer: 0
+  - __class: Entity
+    name: Plane (2)
+    guid: {a: 2254987542770062697, b: 8696475769376629175}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 129}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 13277609082232975117, b: 3482115653300611980}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 64ebc619-15db-b0f5-70e7-1c9c5a9777c9--64ebc619-15db-b0f5-70e7-1c9c5a9777c9.material}
+        sortingOrder: 11
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 15152748861623755512, b: 8291420211502530991}
+        enabled: true
+        animSeq: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+        texName: _AlbedoTexture
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          frame_00_delay-0.1s: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+    layer: 0
+  - __class: Entity
+    name: Plane (6)
+    guid: {a: 11620336466429229876, b: 7013373584244209082}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 130}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 9097357154881718937, b: 6922619732499157430}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 64ebc619-15db-b0f5-70e7-1c9c5a9777c9--64ebc619-15db-b0f5-70e7-1c9c5a9777c9.material}
+        sortingOrder: 12
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000002}
+        castShadow: false
+      - __class: AnimSeqComponent
+        name: ""
+        guid: {a: 17385661106584013848, b: 4614479617970022804}
+        enabled: true
+        animSeq: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+        texName: _AlbedoTexture
+        frameName: _MainTex_ST
+        frameRotateName: _Atlas_Rotated
+        frameInnerName: _Atlas_InnerTex_ST
+        playmode:
+          __class: PlayMode
+          value: loop
+        loopCount: -1
+        speed: 12
+        autoplay: true
+        animSeqMap:
+          __class: Map
+          frame_00_delay-0.1s: {localId: 6, path: 5178efe7-ad64-34aa-c2e3-c07f000a5625--5178efe7-ad64-34aa-c2e3-c07f000a5625.seq}
+    layer: 0
+  - __class: Entity
+    name: Audio Player
+    guid: {a: 17387463918351782733, b: 10014907701466450076}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 131}
+      - __class: JSScriptComponent
+        name: AudioComponent
+        guid: {a: 7080593334023622132, b: 5224349292603051431}
+        enabled: true
+        path: js/AudioComponent.js
+        properties:
+          __class: Map
+          autoPlay: false
+          duration: 3000
+          isPreview: true
+          loopAmount: 1
+          mute: false
+          playMode: Once
+          resPath: audio/4e80dc4c-06a7-adad-3016-805814bdefa8.mp3
+          volume: 100
+    layer: 0
+  - __class: Entity
+    name: 2D Camera
+    guid: {a: 1964271458972940135, b: 429273636048809604}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 132}
+      - __class: Camera
+        name: ""
+        guid: {a: 13854416210301643259, b: 10240759967521338283}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [2, 0]}
+        renderOrder: 20
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 1
+  - __class: Entity
+    name: Canvas
+    guid: {a: 6360018731304821037, b: 3260518938035528890}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 133}
+      - __class: IFLayer2d
+        name: ""
+        guid: {a: 17529438456004819652, b: 8206685686984929417}
+        enabled: true
+        sortingOrder: 17
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        renderOrderMode:
+          __class: IFLayer2dRenderOrderMode
+          value: SceneCustom
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        blendAlpha: 1
+        blendAlphaCkeck: true
+        drawCallNum: 2
+        maskType:
+          __class: IFMaskType
+          value: None
+        inverted: false
+        scissorRectMask: false
+        updateFlag: false
+        updateSortFlag: false
+      - __class: IFCanvas2d
+        name: ""
+        guid: {a: 2544090146935389801, b: 2933666061907375786}
+        enabled: true
+        resolutionType:
+          __class: IFResolutionType
+          value: FitHeight
+        resolutionSize: {x: 720, y: 1280}
+    layer: 1
+  - __class: Entity
+    name: Image
+    guid: {a: 7297246936487927065, b: 14893121695124422319}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 134}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 3982824584952362914, b: 18397770564332933016}
+        enabled: true
+        alpha: 1
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 1, g: 1, b: 1, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: e3a34c44-0f39-15e3-f4af-a5fc4f4c0f7a--e3a34c44-0f39-15e3-f4af-a5fc4f4c0f7a.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+  - __class: Entity
+    name: Image (1)
+    guid: {a: 12196699507699691703, b: 18293975708293662085}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 135}
+      - __class: IFSprite2d
+        name: ""
+        guid: {a: 2328047694157873254, b: 13767417822745053354}
+        enabled: true
+        alpha: 0.699999988079071
+        cascadeAlphaEnabled: false
+        type:
+          __class: IFSprite2dType
+          value: Normal
+        sizeMode:
+          __class: IFSprite2dSizeMode
+          value: Custom
+        colorTint: {r: 0, g: 0, b: 0, a: 1}
+        blendMode:
+          __class: IFBlendMode
+          value: Normal
+        texture: {localId: 1, path: 00000000-0000-0000-0000-00000000003e--00000000-0000-0000-0000-00000000003e.png}
+        atlasIndex: 0
+        filledType:
+          __class: IFFilledType
+          value: Horizontal
+        filledStartPos: 0
+        filledRange: 1
+        ellipseX: 336
+        ellipseY: 336
+        topLeftPoint: {x: 0, y: 0}
+        topRightPoint: {x: 0, y: 0}
+        bottomLeftPoint: {x: 0, y: 0}
+        bottomRightPoint: {x: 0, y: 0}
+        slicedLeft: 0.1000000014901161
+        slicedRight: 0.8999999761581421
+        slicedBottom: 0.1000000014901161
+        slicedTop: 0.8999999761581421
+        fillCenter: true
+        topLeft: 0.5
+        topRight: 0.5
+        bottomLeft: 0.5
+        bottomRight: 0.5
+        lineWidth: 1
+        lineColor: {r: 1, g: 1, b: 1, a: 1}
+        outer: false
+        sizeInited: true
+        freeInited: false
+    layer: 1
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/EditorInjectSystem.js
+  - js/Main.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+--- !Transform &2
+name: ""
+guid: {a: 1029434961439008335, b: 6372224128272086966}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 10827949423485651365, b: 543587625606924957}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 380495198911990739, b: 8024987898461791360}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 5}
+  - {localId: 6}
+  - {localId: 116}
+  - {localId: 128}
+  - {localId: 129}
+  - {localId: 130}
+  - {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 3477870988764170974, b: 17472081477319330214}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: ""
+guid: {a: 7804292140545982527, b: 6968298174636255158}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 2.845241, y: 2.845241, z: 2.845241}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: SkeletonAndRenderRoot
+guid: {a: 3552709844989472775, b: 15282281461733730492}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 37.45285, y: 37.45285, z: 37.45285}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+  - {localId: 9}
+  - {localId: 10}
+  - {localId: 11}
+  - {localId: 12}
+  - {localId: 114}
+  - {localId: 13}
+  - {localId: 115}
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: Helmet.002
+guid: {a: 4560957929844159637, b: 11897278906522501288}
+enabled: true
+localPosition: {x: 8.484398e-05, y: -0.001338578, z: 1.709841}
+localScale: {x: 0.05379802, y: 0.05379806, z: 0.05379802}
+localOrientation: {w: -1.947072e-07, x: 0, y: 0, z: 1}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: Flashlight.006
+guid: {a: 14934788357917264561, b: 17568540504496461209}
+enabled: true
+localPosition: {x: -0.1026634, y: 0.0004796679, z: 1.735887}
+localScale: {x: 0.05379802, y: 0.05379802, z: 0.05379801}
+localOrientation: {w: 0.07531539, x: -0.04478189, y: 0.6853446, z: 0.7229281}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: Helmet Side Clips.003
+guid: {a: 17817626180479288624, b: 6032772728619037828}
+enabled: true
+localPosition: {x: 8.484398e-05, y: 0.01466476, z: 1.723196}
+localScale: {x: 0.05379802, y: 0.05379802, z: 0.05379802}
+localOrientation: {w: -1.946175e-07, x: 5.908297e-09, y: -0.03034453, z: 0.9995395}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: Battery Pack.007
+guid: {a: 9818407062385766165, b: 5712887578861142204}
+enabled: true
+localPosition: {x: 8.482908e-05, y: 0.1783814, z: 1.753696}
+localScale: {x: 0.05379802, y: 0.05379802, z: 0.05379802}
+localOrientation: {w: -1.947072e-07, x: 0, y: 0, z: 1}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Headphones
+guid: {a: 13713253312533973180, b: 15603786186853115319}
+enabled: true
+localPosition: {x: 8.484398e-05, y: -0.01442249, z: 1.705479}
+localScale: {x: 0.05379802, y: 0.05379802, z: 0.05379802}
+localOrientation: {w: -1.947072e-07, x: 0, y: 0, z: 1}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: NVG.004
+guid: {a: 522489891376311681, b: 13128839686586560441}
+enabled: true
+localPosition: {x: 8.485516e-05, y: -0.122, z: 1.743}
+localScale: {x: 0.05379802, y: 0.05379802, z: 0.05379802}
+localOrientation: {w: 1.232795e-07, x: 3.389388e-09, y: -0.8270907, z: -0.5620685}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: male_LOD0
+guid: {a: 15225888323285492375, b: 6057130760038787463}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 0.00999999, y: 0.00999999, z: 0.00999999}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 7}
+children:
+  - {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: root
+guid: {a: 9894102211998088942, b: 13309223500493953942}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 14}
+children:
+  - {localId: 16}
+  - {localId: 103}
+  - {localId: 108}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: pelvis
+guid: {a: 596162152681224491, b: 4756812322159416706}
+enabled: true
+localPosition: {x: 2.319106e-14, y: 0.138031, z: 98.53883}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.7071056, x: 0.001291869, y: -0.7071056, z: -0.001291869}
+parent: {localId: 15}
+children:
+  - {localId: 17}
+  - {localId: 85}
+  - {localId: 94}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: spine_01
+guid: {a: 21934557418149431, b: 7488791567542573975}
+enabled: true
+localPosition: {x: 12.25549, y: -1.393147, z: 1.932417e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.999987, x: 4.874097e-11, y: 3.683557e-12, z: -0.005101608}
+parent: {localId: 16}
+children:
+  - {localId: 18}
+  - {localId: 83}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: spine_02
+guid: {a: 11548671866633287539, b: 5078018576040155049}
+enabled: true
+localPosition: {x: 13.28217, y: 5.573034e-06, z: 2.079287e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9971644, x: -1.362362e-09, y: 2.199843e-09, z: 0.07525361}
+parent: {localId: 17}
+children:
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: spine_03
+guid: {a: 4341702613778544405, b: 17047968076927250364}
+enabled: true
+localPosition: {x: 14.29176, y: 6.854534e-07, z: 2.868576e-07}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9999483, x: -1.919174e-10, y: -1.195178e-09, z: 0.01016652}
+parent: {localId: 18}
+children:
+  - {localId: 20}
+  - {localId: 22}
+  - {localId: 25}
+  - {localId: 53}
+  - {localId: 55}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: breast_l
+guid: {a: 1461569225918283970, b: 13149484996818658477}
+enabled: true
+localPosition: {x: -1.132837, y: -2.265751, z: -7.363484}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: 2.460191e-10, z: -2.980232e-08}
+parent: {localId: 19}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: breast_l_end
+guid: {a: 5784428430360632545, b: 14807000874277592215}
+enabled: true
+localPosition: {x: 0, y: 10.86486, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: neck_01
+guid: {a: 11981701319892485454, b: 1403387283123071156}
+enabled: true
+localPosition: {x: 18.22246, y: -0.7804687, z: 0.01823606}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9915926, x: 0.0003911698, y: -0.00295662, z: -0.1293645}
+parent: {localId: 19}
+children:
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: head
+guid: {a: 2612958926484623653, b: 3329152388493580186}
+enabled: true
+localPosition: {x: 7.714252, y: 2.998131e-06, z: -5.669426e-08}
+localScale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+localOrientation: {w: 0.9980851, x: -2.668837e-05, y: 0.0006579389, z: 0.06185156}
+parent: {localId: 22}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: head_end
+guid: {a: 5137737871314950391, b: 14985559051321876630}
+enabled: true
+localPosition: {x: 0, y: 7.714209, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: clavicle_l
+guid: {a: 16162263102042769352, b: 17819874802101783199}
+enabled: true
+localPosition: {x: 9.2289, y: -0.8837252, z: -4.384094}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: -0.1294926, x: 0.7357533, y: -0.2849513, z: 0.6005843}
+parent: {localId: 19}
+children:
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: upperarm_l
+guid: {a: 13712034728879751812, b: 7801899106308004507}
+enabled: true
+localPosition: {x: -13.00801, y: 3.957325, z: -1.006742}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9106846, x: -0.07852705, y: -0.281729, z: -0.2917463}
+parent: {localId: 25}
+children:
+  - {localId: 27}
+  - {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: lowerarm_l
+guid: {a: 5062441196547735794, b: 4169542100724525757}
+enabled: true
+localPosition: {x: -27.93753, y: -0.358786, z: 0.9135165}
+localScale: {x: 1, y: 0.9999998, z: 1}
+localOrientation: {w: 0.9742619, x: -0.008427811, y: 0.03126478, z: -0.2230812}
+parent: {localId: 26}
+children:
+  - {localId: 28}
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: hand_l
+guid: {a: 11980916053662295779, b: 14064376094138221223}
+enabled: true
+localPosition: {x: -22.19491, y: 1.217954, z: 0.7447664}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9998531, x: 0.0005422565, y: -0.0140586, z: -0.009785159}
+parent: {localId: 27}
+children:
+  - {localId: 29}
+  - {localId: 33}
+  - {localId: 37}
+  - {localId: 41}
+  - {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: index_01_l
+guid: {a: 17242304745021285267, b: 14718278616603887280}
+enabled: true
+localPosition: {x: -10.18382, y: 3.155464, z: -0.7412025}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9793597, x: -0.03345931, y: -0.1958769, z: -0.03697676}
+parent: {localId: 28}
+children:
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: index_02_l
+guid: {a: 2542393346926899392, b: 1444719629059298494}
+enabled: true
+localPosition: {x: -3.672215, y: 0.009144783, z: -0.006749153}
+localScale: {x: 1, y: 1, z: 0.9999996}
+localOrientation: {w: 0.991183, x: 0.05694281, y: -0.1099448, z: 0.04717987}
+parent: {localId: 29}
+children:
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: index_03_l
+guid: {a: 6145085240474920306, b: 1128255350892230318}
+enabled: true
+localPosition: {x: -2.581689, y: 0.0949707, z: 0.0006942749}
+localScale: {x: 0.9999998, y: 0.9999998, z: 1}
+localOrientation: {w: 0.9990351, x: -0.03868377, y: -0.01846694, z: -0.009566086}
+parent: {localId: 30}
+children:
+  - {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: index_03_l_end
+guid: {a: 3839183010469374213, b: 5767149647505961663}
+enabled: true
+localPosition: {x: 0, y: 2.583436, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: middle_01_l
+guid: {a: 17745036012865031489, b: 15367287727347412370}
+enabled: true
+localPosition: {x: -10.3165, y: 0.7128868, z: -0.4872034}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9761023, x: 0.02571214, y: -0.2147674, z: 0.02093119}
+parent: {localId: 28}
+children:
+  - {localId: 34}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: middle_02_l
+guid: {a: 17961777474077096891, b: 3368099992883587773}
+enabled: true
+localPosition: {x: -3.984189, y: -0.1883068, z: 0.05184078}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9948832, x: -0.002245764, y: -0.09603788, z: 0.0312909}
+parent: {localId: 33}
+children:
+  - {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: middle_03_l
+guid: {a: 5280930003948714600, b: 15877343413605736114}
+enabled: true
+localPosition: {x: -2.963186, y: -8.869171e-05, z: -4.267693e-05}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9979172, x: -0.007451747, y: -0.06304731, z: -0.01143644}
+parent: {localId: 34}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: middle_03_l_end
+guid: {a: 15152731844015653038, b: 11864140173100318901}
+enabled: true
+localPosition: {x: 0, y: 2.963189, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: pinky_01_l
+guid: {a: 7083748646342707089, b: 559071271660966046}
+enabled: true
+localPosition: {x: -9.071526, y: -4.211175, z: -1.420436}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9568192, x: 0.08289815, y: -0.2574545, z: 0.1064994}
+parent: {localId: 28}
+children:
+  - {localId: 38}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: pinky_02_l
+guid: {a: 10252575609758932840, b: 13228536599327432890}
+enabled: true
+localPosition: {x: -2.830459, y: -0.09088373, z: 0.0660671}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.999593, x: 0.009426025, y: -0.01321584, z: 0.02345825}
+parent: {localId: 37}
+children:
+  - {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: pinky_03_l
+guid: {a: 15078469625021057059, b: 852260246136398988}
+enabled: true
+localPosition: {x: -1.897919, y: 0.06576395, z: -0.04640031}
+localScale: {x: 1, y: 1, z: 0.9999998}
+localOrientation: {w: 0.996701, x: 0.001160631, y: -0.08059171, z: -0.009526609}
+parent: {localId: 38}
+children:
+  - {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: pinky_03_l_end
+guid: {a: 2900505383233259666, b: 4461022915544078769}
+enabled: true
+localPosition: {x: 0, y: 1.899621, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: ring_01_l
+guid: {a: 14360401230909525812, b: 14809206698104964029}
+enabled: true
+localPosition: {x: -9.853598, y: -1.828581, z: -0.8681768}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9702865, x: 0.03618849, y: -0.222793, z: 0.08716539}
+parent: {localId: 28}
+children:
+  - {localId: 42}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: ring_02_l
+guid: {a: 3837176823482241818, b: 15774072366072307622}
+enabled: true
+localPosition: {x: -3.73284, y: -0.03258705, z: 0.104239}
+localScale: {x: 1, y: 0.9999998, z: 1}
+localOrientation: {w: 0.9958928, x: -0.007991097, y: -0.08937201, z: 0.01209541}
+parent: {localId: 41}
+children:
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: ring_03_l
+guid: {a: 7368238828057737769, b: 7031392273913467583}
+enabled: true
+localPosition: {x: -2.455371, y: 0.004128456, z: -0.00519228}
+localScale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+localOrientation: {w: 0.9996853, x: -0.002995704, y: -0.01939704, z: -0.01562443}
+parent: {localId: 42}
+children:
+  - {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: ring_03_l_end
+guid: {a: 18108236128248133549, b: 6229821598963562938}
+enabled: true
+localPosition: {x: 0, y: 2.455405, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: thumb_01_l
+guid: {a: 14286899966036946950, b: 15481815361189535383}
+enabled: true
+localPosition: {x: -3.072918, y: 3.015039, z: -0.9633298}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.7882679, x: -0.2487248, y: -0.08705965, z: -0.5560488}
+parent: {localId: 28}
+children:
+  - {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: thumb_02_l
+guid: {a: 14503016635904235354, b: 16388437906157638079}
+enabled: true
+localPosition: {x: -3.228769, y: -0.3251214, z: -0.1516361}
+localScale: {x: 1, y: 1, z: 0.9999996}
+localOrientation: {w: 0.9353033, x: -0.1335144, y: -0.2462694, z: 0.216178}
+parent: {localId: 45}
+children:
+  - {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: thumb_03_l
+guid: {a: 17456881688884067158, b: 5826627292421886385}
+enabled: true
+localPosition: {x: -2.801334, y: 0.008106261, z: 0.1915311}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9884742, x: -0.1359974, y: -0.009958672, z: 0.06575919}
+parent: {localId: 46}
+children:
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: thumb_03_l_end
+guid: {a: 11550269925771438990, b: 8956874307439156378}
+enabled: true
+localPosition: {x: 0, y: 2.807882, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 47}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: lowerarm_twist_01_l
+guid: {a: 8379841162758699595, b: 2637446715866792075}
+enabled: true
+localPosition: {x: -10.52036, y: 0.557156, z: 0.3732927}
+localScale: {x: 0.9999999, y: 1, z: 0.9999998}
+localOrientation: {w: 0.9999231, x: 0.0007551144, y: 0.007610525, z: -0.009766629}
+parent: {localId: 27}
+children:
+  - {localId: 50}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: lowerarm_twist_01_l_end
+guid: {a: 6723737490641368977, b: 10498817035403325626}
+enabled: true
+localPosition: {x: 0, y: 16.39126, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: upperarm_twist_01_l
+guid: {a: 4345285438443846402, b: 7031220757592588208}
+enabled: true
+localPosition: {x: 2.294779e-06, y: 1.311302e-06, z: -8.641127e-06}
+localScale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+localOrientation: {w: -7.549783e-08, x: -1.606505e-05, y: 4.312707e-09, z: 1}
+parent: {localId: 26}
+children:
+  - {localId: 52}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: upperarm_twist_01_l_end
+guid: {a: 11046525583792760827, b: 15932761183890404528}
+enabled: true
+localPosition: {x: 0, y: 13.97738, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: breast_r
+guid: {a: 7873086985953521184, b: 12079723683027386023}
+enabled: true
+localPosition: {x: -1.132807, y: -2.26575, z: 7.363485}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 7.54979e-08, x: -1.945708e-07, y: 7.147865e-15, z: 1}
+parent: {localId: 19}
+children:
+  - {localId: 54}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: breast_r_end
+guid: {a: 15222224288762828946, b: 7820732445086411443}
+enabled: true
+localPosition: {x: 0, y: 10.86486, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 53}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: clavicle_r
+guid: {a: 17604224130037224214, b: 9003088481656556437}
+enabled: true
+localPosition: {x: 9.229083, y: -0.8837511, z: 4.384096}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.6005838, x: -0.2849514, y: -0.7357536, z: 0.1294931}
+parent: {localId: 19}
+children:
+  - {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: upperarm_r
+guid: {a: 93901556708361024, b: 16885472988323667329}
+enabled: true
+localPosition: {x: 13.00798, y: -3.957311, z: 1.006564}
+localScale: {x: 1, y: 0.9999999, z: 0.9999996}
+localOrientation: {w: 0.9106802, x: -0.07853187, y: -0.2817429, z: -0.291745}
+parent: {localId: 55}
+children:
+  - {localId: 57}
+  - {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: lowerarm_r
+guid: {a: 11407440703154312556, b: 15502730779906425500}
+enabled: true
+localPosition: {x: 27.93759, y: 0.3587761, z: -0.9143477}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9742614, x: -0.008431356, y: 0.0312801, z: -0.223081}
+parent: {localId: 56}
+children:
+  - {localId: 58}
+  - {localId: 79}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &58
+name: hand_r
+guid: {a: 4919213151022005817, b: 2923881364264868491}
+enabled: true
+localPosition: {x: 22.19505, y: -1.217904, z: -0.7446474}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9998531, x: 0.0005422614, y: -0.01405882, z: -0.009785122}
+parent: {localId: 57}
+children:
+  - {localId: 59}
+  - {localId: 63}
+  - {localId: 67}
+  - {localId: 71}
+  - {localId: 75}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &59
+name: index_01_r
+guid: {a: 17171889137488667741, b: 7278645130466807994}
+enabled: true
+localPosition: {x: 10.18382, y: -3.155477, z: 0.741178}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9793599, x: -0.03345938, y: -0.195876, z: -0.03697653}
+parent: {localId: 58}
+children:
+  - {localId: 60}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &60
+name: index_02_r
+guid: {a: 10827382502771488908, b: 885224608261816230}
+enabled: true
+localPosition: {x: 3.672294, y: -0.00909996, z: 0.006825447}
+localScale: {x: 0.9999999, y: 0.9999998, z: 0.9999998}
+localOrientation: {w: 0.9911827, x: 0.05694274, y: -0.1099472, z: 0.04717987}
+parent: {localId: 59}
+children:
+  - {localId: 61}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &61
+name: index_03_r
+guid: {a: 2902430835951726714, b: 14880556291726669720}
+enabled: true
+localPosition: {x: 2.581594, y: -0.09498405, z: -0.0007653236}
+localScale: {x: 1, y: 0.9999998, z: 1}
+localOrientation: {w: 0.9990351, x: -0.03868338, y: -0.018467, z: -0.009567311}
+parent: {localId: 60}
+children:
+  - {localId: 62}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &62
+name: index_03_r_end
+guid: {a: 8884158198524983473, b: 9808215844935357372}
+enabled: true
+localPosition: {x: 0, y: 2.583344, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 61}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &63
+name: middle_01_r
+guid: {a: 10394903207045832322, b: 18090857022306376862}
+enabled: true
+localPosition: {x: 10.31649, y: -0.7128983, z: 0.4871677}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9761022, x: 0.02571236, y: -0.2147679, z: 0.02093168}
+parent: {localId: 58}
+children:
+  - {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &64
+name: middle_02_r
+guid: {a: 11118885698213206182, b: 13190354081314509750}
+enabled: true
+localPosition: {x: 3.984562, y: 0.1884508, z: -0.05173016}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9948832, x: -0.002245671, y: -0.09603728, z: 0.03129061}
+parent: {localId: 63}
+children:
+  - {localId: 65}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &65
+name: middle_03_r
+guid: {a: 6648631036652297426, b: 12591345749452066231}
+enabled: true
+localPosition: {x: 2.96283, y: -6.580353e-05, z: 2.479553e-05}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9979172, x: -0.007452108, y: -0.06304731, z: -0.01143656}
+parent: {localId: 64}
+children:
+  - {localId: 66}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &66
+name: middle_03_r_end
+guid: {a: 16595160604508921360, b: 17072073796735554474}
+enabled: true
+localPosition: {x: 0, y: 2.962805, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 65}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &67
+name: pinky_01_r
+guid: {a: 17458686948365791024, b: 4739506956488914618}
+enabled: true
+localPosition: {x: 9.071522, y: 4.211167, z: 1.420405}
+localScale: {x: 1, y: 1, z: 0.9999998}
+localOrientation: {w: 0.9568189, x: 0.08289797, y: -0.2574551, z: 0.1065002}
+parent: {localId: 58}
+children:
+  - {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: pinky_02_r
+guid: {a: 18392885720385962109, b: 13339927585109535126}
+enabled: true
+localPosition: {x: 2.830496, y: 0.09088421, z: -0.06603199}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.999593, x: 0.009427129, y: -0.01322066, z: 0.02345716}
+parent: {localId: 67}
+children:
+  - {localId: 69}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &69
+name: pinky_03_r
+guid: {a: 810957511214477931, b: 10582831139434327194}
+enabled: true
+localPosition: {x: 1.897871, y: -0.06576872, z: 0.04633522}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9967015, x: 0.00115963, y: -0.08058544, z: -0.009526931}
+parent: {localId: 68}
+children:
+  - {localId: 70}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &70
+name: pinky_03_r_end
+guid: {a: 17027436292638144898, b: 4401892784815251882}
+enabled: true
+localPosition: {x: 0, y: 1.899578, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 69}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &71
+name: ring_01_r
+guid: {a: 8451253297781597227, b: 14660369413460761503}
+enabled: true
+localPosition: {x: 9.853592, y: 1.828568, z: 0.8681527}
+localScale: {x: 1, y: 1, z: 0.9999997}
+localOrientation: {w: 0.9702868, x: 0.0361887, y: -0.222792, z: 0.08716474}
+parent: {localId: 58}
+children:
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &72
+name: ring_02_r
+guid: {a: 523873046174972869, b: 10325593489139954594}
+enabled: true
+localPosition: {x: 3.732796, y: 0.03259659, z: -0.1041983}
+localScale: {x: 0.9999997, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9958925, x: -0.007991038, y: -0.08937509, z: 0.01209654}
+parent: {localId: 71}
+children:
+  - {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &73
+name: ring_03_r
+guid: {a: 9531754976858402231, b: 15128303459956023443}
+enabled: true
+localPosition: {x: 2.455435, y: -0.004083633, z: 0.005109072}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9996853, x: -0.002995593, y: -0.01939572, z: -0.01562576}
+parent: {localId: 72}
+children:
+  - {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &74
+name: ring_03_r_end
+guid: {a: 4559700446355911473, b: 7802425790483539374}
+enabled: true
+localPosition: {x: 0, y: 2.455449, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &75
+name: thumb_01_r
+guid: {a: 2901395359118034225, b: 1808658559859568573}
+enabled: true
+localPosition: {x: 3.07294, y: -3.015023, z: 0.9634202}
+localScale: {x: 1, y: 0.9999999, z: 0.9999998}
+localOrientation: {w: 0.7882677, x: -0.2487262, y: -0.08705881, z: -0.5560487}
+parent: {localId: 58}
+children:
+  - {localId: 76}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &76
+name: thumb_02_r
+guid: {a: 6072440236138561491, b: 15567772087838580134}
+enabled: true
+localPosition: {x: 3.228727, y: 0.3251109, z: 0.1516185}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9353034, x: -0.1335132, y: -0.2462701, z: 0.2161778}
+parent: {localId: 75}
+children:
+  - {localId: 77}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &77
+name: thumb_03_r
+guid: {a: 5136268431144725263, b: 18174626335387795865}
+enabled: true
+localPosition: {x: 2.801341, y: -0.008050561, z: -0.1916351}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9884742, x: -0.135997, y: -0.009958514, z: 0.06575926}
+parent: {localId: 76}
+children:
+  - {localId: 78}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &78
+name: thumb_03_r_end
+guid: {a: 2181232266806126046, b: 1826794310496427186}
+enabled: true
+localPosition: {x: 0, y: 2.807885, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 77}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &79
+name: lowerarm_twist_01_r
+guid: {a: 8450385176637079812, b: 1477741933621699243}
+enabled: true
+localPosition: {x: 10.52055, y: -0.5570735, z: -0.3730828}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9999231, x: 0.000754958, y: 0.007610874, z: -0.009766629}
+parent: {localId: 57}
+children:
+  - {localId: 80}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &80
+name: lowerarm_twist_01_r_end
+guid: {a: 6723640774745192629, b: 8798783116267222403}
+enabled: true
+localPosition: {x: 0, y: 16.3914, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 79}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &81
+name: upperarm_twist_01_r
+guid: {a: 2902905830956278846, b: 11509591962818210948}
+enabled: true
+localPosition: {x: 8.106232e-06, y: -1.341105e-06, z: -6.414713e-06}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -7.549865e-08, x: 3.817258e-05, y: 1.952836e-08, z: 1}
+parent: {localId: 56}
+children:
+  - {localId: 82}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &82
+name: upperarm_twist_01_r_end
+guid: {a: 3047485008459138926, b: 17663003281877261752}
+enabled: true
+localPosition: {x: 0, y: 13.97744, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &83
+name: belly
+guid: {a: 8953692958977114778, b: 6560066849268851096}
+enabled: true
+localPosition: {x: 0.290095, y: -5.002101, z: 3.232599e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: -2.303713e-15, y: 1e-15, z: -1.629815e-08}
+parent: {localId: 17}
+children:
+  - {localId: 84}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &84
+name: belly_end
+guid: {a: 18107034963624234075, b: 15725629589896994720}
+enabled: true
+localPosition: {x: 0, y: 9.146338, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 83}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &85
+name: thigh_l
+guid: {a: 7153441817021087279, b: 13692573162699715993}
+enabled: true
+localPosition: {x: -4.81149, y: -2.622189, z: -10.00001}
+localScale: {x: 1, y: 0.9999998, z: 0.9999999}
+localOrientation: {w: 0.03353605, x: 0.05122038, y: 0.9978315, z: 0.02416901}
+parent: {localId: 16}
+children:
+  - {localId: 86}
+  - {localId: 92}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &86
+name: calf_l
+guid: {a: 4559511021841398563, b: 15038221545040289931}
+enabled: true
+localPosition: {x: 40.77792, y: -2.247507, z: -1.127833}
+localScale: {x: 0.9999998, y: 0.9999999, z: 1}
+localOrientation: {w: 0.999916, x: 0.01049341, y: 0.006577427, z: 0.003827326}
+parent: {localId: 85}
+children:
+  - {localId: 87}
+  - {localId: 90}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &87
+name: foot_l
+guid: {a: 9604497733372865742, b: 3937594736025811337}
+enabled: true
+localPosition: {x: 43.20879, y: 0.1091439, z: -0.2445551}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.9962056, x: -0.03295822, y: -0.003704346, z: 0.08046381}
+parent: {localId: 86}
+children:
+  - {localId: 88}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &88
+name: ball_l
+guid: {a: 13421887747898898986, b: 16426406669504869011}
+enabled: true
+localPosition: {x: 3.412852, y: -16.57465, z: 1.514217}
+localScale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+localOrientation: {w: 0.9935559, x: -0.07309391, y: 0.04645998, z: 0.0731124}
+parent: {localId: 87}
+children:
+  - {localId: 89}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &89
+name: ball_l_end
+guid: {a: 3911362796765741975, b: 4772918630895542707}
+enabled: true
+localPosition: {x: 0, y: 16.98998, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 88}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &90
+name: calf_twist_01_l
+guid: {a: 16523700180184447905, b: 8771144677086624400}
+enabled: true
+localPosition: {x: 24.54637, y: 0.0508661, z: -0.1232902}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1.74623e-09, y: 1.047738e-09, z: -7.846392e-08}
+parent: {localId: 86}
+children:
+  - {localId: 91}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &91
+name: calf_twist_01_l_end
+guid: {a: 16953878632443140675, b: 9512083202520821376}
+enabled: true
+localPosition: {x: 0, y: 33.87816, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 90}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &92
+name: thigh_twist_01_l
+guid: {a: 17744728846822723540, b: 11655602591454255789}
+enabled: true
+localPosition: {x: 16.89525, y: -0.9539989, z: -0.4798475}
+localScale: {x: 0.9999999, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9997436, x: 0.0006119789, y: 0.006528946, z: 0.02167093}
+parent: {localId: 85}
+children:
+  - {localId: 93}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &93
+name: thigh_twist_01_l_end
+guid: {a: 13063424586673177601, b: 9858977245244140182}
+enabled: true
+localPosition: {x: 0, y: 28.89218, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 92}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &94
+name: thigh_r
+guid: {a: 3190305633671985755, b: 14887677492450101126}
+enabled: true
+localPosition: {x: -4.811514, y: -2.622187, z: 10.00001}
+localScale: {x: 1.000011, y: 1, z: 1.000003}
+localOrientation: {w: 0.02417416, x: 0.9978251, y: -0.05133227, z: -0.03355004}
+parent: {localId: 16}
+children:
+  - {localId: 95}
+  - {localId: 101}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &95
+name: calf_r
+guid: {a: 8810725439997681767, b: 14782512355290023841}
+enabled: true
+localPosition: {x: -40.77746, y: 2.247553, z: 1.127838}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.999916, x: 0.01049336, y: 0.006580854, z: 0.003827247}
+parent: {localId: 94}
+children:
+  - {localId: 96}
+  - {localId: 99}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &96
+name: foot_r
+guid: {a: 13133834003397602668, b: 6034416465590747051}
+enabled: true
+localPosition: {x: -43.20837, y: -0.1091033, z: 0.244214}
+localScale: {x: 0.9999999, y: 1, z: 0.9999999}
+localOrientation: {w: 0.9962056, x: -0.03295878, y: -0.003703273, z: 0.08046312}
+parent: {localId: 95}
+children:
+  - {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &97
+name: ball_r
+guid: {a: 18033448548279669259, b: 7958883225515689102}
+enabled: true
+localPosition: {x: -3.412787, y: 16.57461, z: -1.514211}
+localScale: {x: 0.9999999, y: 1, z: 1}
+localOrientation: {w: 0.9935559, x: -0.07309443, y: 0.04646058, z: 0.07311164}
+parent: {localId: 96}
+children:
+  - {localId: 98}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &98
+name: ball_r_end
+guid: {a: 4485848508333398602, b: 4704849280273317548}
+enabled: true
+localPosition: {x: 0, y: 16.98994, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 97}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &99
+name: calf_twist_01_r
+guid: {a: 5856768634510570675, b: 8797808934081470857}
+enabled: true
+localPosition: {x: -24.54612, y: -0.05085325, z: 0.1231248}
+localScale: {x: 1, y: 1, z: 0.9999999}
+localOrientation: {w: 1, x: 8.149071e-10, y: -1.164153e-08, z: -5.049514e-08}
+parent: {localId: 95}
+children:
+  - {localId: 100}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &100
+name: calf_twist_01_r_end
+guid: {a: 12848718493544030724, b: 4900859957792709004}
+enabled: true
+localPosition: {x: 0, y: 33.87821, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 99}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &101
+name: thigh_twist_01_r
+guid: {a: 7945901095822494180, b: 13057769009436533892}
+enabled: true
+localPosition: {x: -16.89502, y: 0.9540174, z: 0.479839}
+localScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 0.9997436, x: 0.0006119068, y: 0.006531266, z: 0.02167072}
+parent: {localId: 94}
+children:
+  - {localId: 102}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &102
+name: thigh_twist_01_r_end
+guid: {a: 12556503393121265363, b: 7744563091030867841}
+enabled: true
+localPosition: {x: 0, y: 28.89213, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 101}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &103
+name: ik_foot_root
+guid: {a: 12343970844312219493, b: 13658093438316673422}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: 0, z: 0}
+parent: {localId: 15}
+children:
+  - {localId: 104}
+  - {localId: 106}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &104
+name: ik_foot_l
+guid: {a: 12484292241609423760, b: 7840427700536878223}
+enabled: true
+localPosition: {x: 13.57499, y: 4.682614, z: 10.07956}
+localScale: {x: 1, y: 0.9999998, z: 1}
+localOrientation: {w: 0.7269794, x: -0.005579006, y: 0.6825511, z: 0.0747925}
+parent: {localId: 103}
+children:
+  - {localId: 105}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &105
+name: ik_foot_l_end
+guid: {a: 5206813604819886240, b: 8777051857517892535}
+enabled: true
+localPosition: {x: 0, y: 17.54438, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 104}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &106
+name: ik_foot_r
+guid: {a: 14288343883172859182, b: 13764611903678309803}
+enabled: true
+localPosition: {x: -13.57501, y: 4.68261, z: 10.0796}
+localScale: {x: 0.9999986, y: 0.9999998, z: 0.9999991}
+localOrientation: {w: 0.005579367, x: 0.7269809, y: -0.07479294, z: 0.6825494}
+parent: {localId: 103}
+children:
+  - {localId: 107}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &107
+name: ik_foot_r_end
+guid: {a: 3479176568661804526, b: 17234679533230528951}
+enabled: true
+localPosition: {x: 0, y: 17.54438, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 106}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &108
+name: ik_hand_root
+guid: {a: 17241061741330413142, b: 14647056561081213866}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 1e-15, y: 0, z: 0}
+parent: {localId: 15}
+children:
+  - {localId: 109}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &109
+name: ik_hand_gun
+guid: {a: 10181370710879553982, b: 12382091990374310557}
+enabled: true
+localPosition: {x: -50.17833, y: -7.317841, z: 110.295}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.678795, x: 0.6188493, y: -0.06954098, z: 0.389136}
+parent: {localId: 108}
+children:
+  - {localId: 110}
+  - {localId: 112}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &110
+name: ik_hand_l
+guid: {a: 7083805823188947416, b: 8123068063197941126}
+enabled: true
+localPosition: {x: 68.9927, y: -61.65485, z: 38.8606}
+localScale: {x: 0.9999996, y: 1, z: 1}
+localOrientation: {w: -7.465839e-07, x: 0.6874744, y: -0.6143574, z: 0.3872259}
+parent: {localId: 109}
+children:
+  - {localId: 111}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &111
+name: ik_hand_l_end
+guid: {a: 4057349170809031385, b: 2466487979579107465}
+enabled: true
+localPosition: {x: 0, y: 50.17846, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 110}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &112
+name: ik_hand_r
+guid: {a: 6939109099486499729, b: 16879876198972131494}
+enabled: true
+localPosition: {x: -0.0001142025, y: 5.960464e-06, z: 0.0002055168}
+localScale: {x: 1, y: 0.9999999, z: 0.9999999}
+localOrientation: {w: 1, x: 8.288772e-08, y: -1.601875e-07, z: -7.962808e-08}
+parent: {localId: 109}
+children:
+  - {localId: 113}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &113
+name: ik_hand_r_end
+guid: {a: 14936677270706592742, b: 12200522787760113818}
+enabled: true
+localPosition: {x: 0, y: 50.17846, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 112}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &114
+name: Headphones
+guid: {a: 2325811278185080429, b: 5136602900048066205}
+enabled: true
+localPosition: {x: 8.484398e-05, y: -0.01442249, z: 1.705479}
+localScale: {x: 0.05503274, y: 0.05503274, z: 0.05503274}
+localOrientation: {w: -1.947072e-07, x: -1e-15, y: 2.980232e-08, z: 1}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &115
+name: NVG.004
+guid: {a: 5928246859835369516, b: 6192135320849061523}
+enabled: true
+localPosition: {x: 8.48548e-05, y: -0.121, z: 1.744}
+localScale: {x: 0.05643234, y: 0.05643233, z: 0.05643235}
+localOrientation: {w: -1.383639e-07, x: -8.601508e-08, y: -0.5279568, z: 0.8492713}
+parent: {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &116
+name: ""
+guid: {a: 8377810369975624316, b: 17331733295883751041}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &119
+name: ""
+guid: {a: 7875756769527616815, b: 13161560855567446932}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 0}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 120}
+  - {localId: 124}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &120
+name: ""
+guid: {a: 13277761623689741015, b: 1750655999469475982}
+enabled: true
+localPosition: {x: 3.002978, y: 1.283742, z: 33.92669}
+localScale: {x: 0.03644199, y: 0.02244795, z: 0.02244795}
+localOrientation: {w: 0.7071067, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 119}
+children:
+  - {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &121
+name: SkeletonAndRenderRoot
+guid: {a: 12989400727597748763, b: 12263404236800673463}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 120}
+children:
+  - {localId: 122}
+  - {localId: 123}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &122
+name: Cylinder
+guid: {a: 13640202328789655602, b: 4321739701673620394}
+enabled: true
+localPosition: {x: -696.6688, y: 0.0001869202, z: -0.0009307861}
+localScale: {x: 11.63445, y: 14.43255, z: 1294.545}
+localOrientation: {w: 0.5, x: -0.5, y: 0.5, z: -0.5}
+parent: {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &123
+name: Cylinder
+guid: {a: 15944901033783507286, b: 5260992826055000203}
+enabled: true
+localPosition: {x: -841.7878, y: 0.0001869202, z: -0.0005187988}
+localScale: {x: 31.08502, y: 19.1481, z: 1465.453}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5000001}
+parent: {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &124
+name: ""
+guid: {a: 7584855284128610211, b: 4797065583978385039}
+enabled: true
+localPosition: {x: -3.01417, y: 1.283742, z: 33.92669}
+localScale: {x: 0.03644198, y: 0.02244795, z: 0.02244794}
+localOrientation: {w: 0.7071067, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 119}
+children:
+  - {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &125
+name: SkeletonAndRenderRoot
+guid: {a: 15512026364628489505, b: 13698040889579011511}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 124}
+children:
+  - {localId: 126}
+  - {localId: 127}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &126
+name: Cylinder
+guid: {a: 887018914489357269, b: 4748103982377540251}
+enabled: true
+localPosition: {x: -696.6688, y: 0.0001869202, z: -0.0001068115}
+localScale: {x: 11.63445, y: 14.43255, z: 1294.545}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5}
+parent: {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &127
+name: Cylinder
+guid: {a: 596431522148888814, b: 13817721382089213861}
+enabled: true
+localPosition: {x: -841.7881, y: 0.0001869202, z: -6.103516e-05}
+localScale: {x: 31.08502, y: 19.14809, z: 1465.453}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5000001}
+parent: {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &128
+name: ""
+guid: {a: 8596137133781328222, b: 14132022243062362262}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &129
+name: ""
+guid: {a: 16521917853329688779, b: 1540477798283680681}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &130
+name: ""
+guid: {a: 6071660629123453311, b: 13853699992658355860}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &131
+name: ""
+guid: {a: 9244514633313321368, b: 10041242132490882439}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &132
+name: ""
+guid: {a: 8452044993445763668, b: 9191278514966379416}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &133
+name: ""
+guid: {a: 2902639218905118089, b: 2263747313519048637}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 134}
+  - {localId: 135}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: 0
+--- !IFTransform2d &134
+name: ""
+guid: {a: 12199269854936378199, b: 9816140978925432763}
+enabled: true
+localPosition: {x: 0, y: -4.730527e-08, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 133}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: -3.027537e-05}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -1
+--- !IFTransform2d &135
+name: ""
+guid: {a: 15225610769410534411, b: 13792728045955619462}
+enabled: true
+localPosition: {x: 1.490116e-08, y: -0.04522886, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 133}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 9.536743e-06, y: -28.94647}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1337.893}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2

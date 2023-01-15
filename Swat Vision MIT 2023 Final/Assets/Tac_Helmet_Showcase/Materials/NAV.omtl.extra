@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "93ab2bf9-9b7c-83a1-3f65-61d9d9439e82",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "NAV",
+    "objGuid": "Guid(5207530810925647465, 13223921578286213806)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13280085518849762293, 13081165170884707494)"
+  }
+]

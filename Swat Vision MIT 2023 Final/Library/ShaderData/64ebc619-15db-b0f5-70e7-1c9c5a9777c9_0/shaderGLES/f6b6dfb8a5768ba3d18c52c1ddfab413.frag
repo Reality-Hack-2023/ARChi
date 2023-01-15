@@ -1,0 +1,61 @@
+#version 300 es
+precision highp float;
+precision highp int;
+
+uniform mediump sampler2D u_FBOTexture;
+uniform mediump sampler2D _AlbedoTexture;
+uniform vec4 _AlbedoColor;
+uniform mat4 u_VP;
+
+in vec2 g_vary_uv0;
+in vec4 v_gl_pos;
+layout(location = 0) out vec4 o_fragColor;
+in vec3 v_posWS;
+
+vec4 TextureFromFBO(vec2 uv)
+{
+    vec4 result = texture(u_FBOTexture, uv);
+    return result;
+}
+
+vec3 BlendLinearDodge(vec3 base, vec3 blend)
+{
+    return min(base + blend, vec3(1.0));
+}
+
+vec3 BlendLinearDodge(vec3 base, vec3 blend, float opacity)
+{
+    vec3 param = base;
+    vec3 param_1 = blend;
+    return (BlendLinearDodge(param, param_1) * opacity) + (base * (1.0 - opacity));
+}
+
+vec4 ApplyBlendMode(vec4 color, vec2 uv)
+{
+    vec4 ret = color;
+    vec2 param = uv;
+    vec4 framecolor = TextureFromFBO(param);
+    vec3 param_1 = framecolor.xyz;
+    vec3 param_2 = ret.xyz;
+    float param_3 = ret.w;
+    vec3 _84 = BlendLinearDodge(param_1, param_2, param_3);
+    ret = vec4(_84.x, _84.y, _84.z, ret.w);
+    return ret;
+}
+
+void main()
+{
+    vec2 uv = g_vary_uv0;
+    uv.y = 1.0 - uv.y;
+    vec4 t_albedo = vec4(1.0);
+    t_albedo = texture(_AlbedoTexture, uv);
+    vec3 _110 = t_albedo.xyz / vec3(t_albedo.w);
+    t_albedo = vec4(_110.x, _110.y, _110.z, t_albedo.w);
+    vec4 final_color = t_albedo * _AlbedoColor;
+    vec2 ndc_coord = v_gl_pos.xy / vec2(v_gl_pos.w);
+    vec2 screen_coord = (ndc_coord * 0.5) + vec2(0.5);
+    vec4 param = final_color;
+    vec2 param_1 = screen_coord;
+    o_fragColor = ApplyBlendMode(param, param_1);
+}
+

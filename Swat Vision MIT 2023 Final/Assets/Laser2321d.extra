@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "ab5b05d0-10ab-03e7-3342-3f51b2912c8f",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Laser2321d",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
