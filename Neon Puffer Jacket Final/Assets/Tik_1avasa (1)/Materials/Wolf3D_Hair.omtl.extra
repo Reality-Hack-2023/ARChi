@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "9591fe98-b262-7df3-6451-9d91a715de38",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Wolf3D_Hair",
+    "objGuid": "Guid(14575960232767808475, 2372577863733973947)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(2686152747138766289, 4236149868889727878)"
+  }
+]

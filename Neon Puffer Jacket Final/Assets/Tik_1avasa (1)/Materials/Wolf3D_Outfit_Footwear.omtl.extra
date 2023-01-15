@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "4cd5afea-3e9b-49ba-b082-70494f7242ad",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Wolf3D_Outfit_Footwear",
+    "objGuid": "Guid(14862425211534298968, 13787001178894587040)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13349042016401631789, 14005140164230731436)"
+  }
+]

@@ -1,0 +1,28 @@
+%YAML 1.1
+--- !Material &1
+name: Occluder
+guid: {a: 5497753422053448209, b: 17343763804634534791}
+xshader: {localId: 1, path: 3d7565a7-98bd-c116-8beb-b8f41769ae02--3d7565a7-98bd-c116-8beb-b8f41769ae02.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 9745982827864821934, b: 3887223742051482001}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

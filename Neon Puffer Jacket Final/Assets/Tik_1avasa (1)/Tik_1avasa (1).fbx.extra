@@ -1,0 +1,37 @@
+[
+  {
+    "guid": {
+      "a": "c2c0d53b-13dc-763d-7c6f-18a0c1eb8d3e",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Tik_1avasa (1)",
+    "objGuid": "Guid(4269622059140770207, 9502932154665201299)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "fe44ec29-42de-812f-0a44-863a4a84d370",
+      "0e193207-dab3-6a97-1d5d-fed421385f5c",
+      "d852d833-481c-7554-424e-5cc803adf298",
+      "4cd5afea-3e9b-49ba-b082-70494f7242ad",
+      "f083a8cb-ea95-f1c4-14b2-8f2a90f067ab",
+      "9591fe98-b262-7df3-6451-9d91a715de38"
+    ],
+    "meshGUIDs": [
+      "3473b261-3c19-31d7-c661-005046baf0c6",
+      "09584bf2-2fe4-02c1-c507-970142084384",
+      "6b964c98-08db-61ce-f80e-c5dd74e2d580",
+      "eac9691b-c7bd-1805-2251-05a48491fe04",
+      "53a6cef4-9ba1-da47-1b15-22e75eb4314a",
+      "e5dfed40-78d6-82da-55d6-c486a89e0d24"
+    ],
+    "animazGUIDs": [
+      "f0488559-626a-9e99-97f3-7c0826253565"
+    ]
+  }
+]

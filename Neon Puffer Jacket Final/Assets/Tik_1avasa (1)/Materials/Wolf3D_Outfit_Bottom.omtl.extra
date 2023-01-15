@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "d852d833-481c-7554-424e-5cc803adf298",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Wolf3D_Outfit_Bottom",
+    "objGuid": "Guid(4702687059392980723, 3791636109456310158)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(12700443121492923039, 9826053278783218614)"
+  }
+]
