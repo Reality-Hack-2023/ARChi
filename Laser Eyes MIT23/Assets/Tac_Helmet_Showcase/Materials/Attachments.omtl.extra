@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "89d68450-de6c-3140-478e-cf702ee7b0b9",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Attachments",
+    "objGuid": "Guid(8089030072277630896, 15929726005418885551)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(9892408764762261907, 10977866281288026538)"
+  }
+]

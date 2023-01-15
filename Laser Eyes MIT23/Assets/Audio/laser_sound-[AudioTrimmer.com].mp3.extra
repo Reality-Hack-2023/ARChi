@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "4e80dc4c-06a7-adad-3016-805814bdefa8",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "laser_sound-[AudioTrimmer.com]",
+    "objGuid": "Guid(9749931991444380661, 4866769782186694819)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

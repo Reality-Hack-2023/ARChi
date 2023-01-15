@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "ef7c416b-ee99-0506-953b-2cca718fb574",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "phonto 39",
+    "objGuid": "Guid(15224388275780989755, 3139271838681653176)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

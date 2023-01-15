@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "917fd44c-c9ff-65c6-7f78-52a00f0a13be",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Laser2321d",
+    "objGuid": "Guid(4128540494176279622, 4006418511387768986)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "aa20630f-5dd4-e5c9-16b5-4f0e0e59afc0"
+    ],
+    "animazGUIDs": []
+  }
+]

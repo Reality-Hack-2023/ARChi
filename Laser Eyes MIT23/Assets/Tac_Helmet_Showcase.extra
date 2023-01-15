@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "71354fb1-7584-5d3c-5dee-ebb6d928b193",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Tac_Helmet_Showcase",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

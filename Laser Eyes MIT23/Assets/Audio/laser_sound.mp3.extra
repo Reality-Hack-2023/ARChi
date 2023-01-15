@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "b9cf6d5b-0a27-449b-9246-63eddb51d045",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "laser_sound",
+    "objGuid": "Guid(16232385357609449930, 9246663763119235991)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

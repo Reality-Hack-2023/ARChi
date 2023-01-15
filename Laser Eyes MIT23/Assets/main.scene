@@ -1,0 +1,1660 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 17892678610801857370, b: 559697082159424149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 12556560734000964803, b: 7508859945702231687}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 10
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 3261253174792506660, b: 16680708562180406145}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 13350271480239526722, b: 3096813384112271290}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: Head Tracker
+    guid: {a: 6504615249774449951, b: 3605384986816010424}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 16306839712150129423, b: 17451206375442360480}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 4126384250848547258, b: 16451739284501229497}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 2612610686214348328, b: 1627670267279599289}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Laser2321d
+    guid: {a: 6578761927582299153, b: 6576701005551509150}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 120}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 2975709540345760087, b: 833791889504103602}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 121}
+    layer: 0
+  - __class: Entity
+    name: Cylinder
+    guid: {a: 16233639267420584588, b: 8308265604786915988}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 122}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 11116468372979848920, b: 10873844103429889152}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: dead4c36-60ad-4b42-66bf-c0b31e4548ef--dead4c36-60ad-4b42-66bf-c0b31e4548ef.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 16306507029088625122, b: 8614436724176952253}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 125}
+    layer: 0
+  - __class: Entity
+    name: Cylinder
+    guid: {a: 12919175282250532389, b: 8935037107088324250}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 126}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 9389357394550513731, b: 9191960356963271808}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: dead4c36-60ad-4b42-66bf-c0b31e4548ef--dead4c36-60ad-4b42-66bf-c0b31e4548ef.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Laser2321d (1)
+    guid: {a: 6722835214864504998, b: 8842824461899523253}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 124}
+    layer: 0
+  - __class: Entity
+    name: Cylinder (1)
+    guid: {a: 4990000006033786236, b: 4286650392633221269}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 123}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 17962721098160265449, b: 16977974326401501597}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: a1235cf6-507b-2a3c-e399-b92905ec550b--a1235cf6-507b-2a3c-e399-b92905ec550b.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Cylinder (1)
+    guid: {a: 18180329817461480937, b: 4189334588660722059}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 127}
+      - __class: MeshRenderer
+        name: mesh0_renderer
+        guid: {a: 9100589102392227596, b: 18255298452720846761}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: a1235cf6-507b-2a3c-e399-b92905ec550b--a1235cf6-507b-2a3c-e399-b92905ec550b.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 917fd44c-c9ff-65c6-7f78-52a00f0a13be--Cylinder.mesh}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: Scene Object
+    guid: {a: 12124236418661403509, b: 7764758117210174124}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 119}
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/EditorInjectSystem.js
+  - js/Main.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+--- !Transform &2
+name: ""
+guid: {a: 1029434961439008335, b: 6372224128272086966}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 10827949423485651365, b: 543587625606924957}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 380495198911990739, b: 8024987898461791360}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 5}
+  - {localId: 119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 3477870988764170974, b: 17472081477319330214}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: ""
+guid: {a: 7804292140545982527, b: 6968298174636255158}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 2.845241, y: 2.845241, z: 2.845241}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: SkeletonAndRenderRoot
+guid: {a: 3552709844989472775, b: 15282281461733730492}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 106.5624, y: 106.5624, z: 106.5624}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: Helmet.002
+guid: {a: 4560957929844159637, b: 11897278906522501288}
+enabled: true
+localPosition: {x: 0.009041177, y: 4.310822, z: -7.342566}
+localScale: {x: 5.732845, y: 5.732849, z: 5.732845}
+localOrientation: {w: -1.376788e-07, x: 1.376788e-07, y: 0.7071068, z: 0.7071067}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: Flashlight.006
+guid: {a: 14934788357917264561, b: 17568540504496461209}
+enabled: true
+localPosition: {x: -10.94006, y: 7.086319, z: -7.536324}
+localScale: {x: 5.732845, y: 5.732844, z: 5.732844}
+localOrientation: {w: 0.02159044, x: -0.0849216, y: 0.9957991, z: 0.0265755}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: Helmet Side Clips.003
+guid: {a: 17817626180479288624, b: 6032772728619037828}
+enabled: true
+localPosition: {x: 0.009041177, y: 5.733963, z: -9.04792}
+localScale: {x: 5.732845, y: 5.732845, z: 5.732845}
+localOrientation: {w: -1.334376e-07, x: 1.417932e-07, y: 0.6853244, z: 0.728238}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: Battery Pack.007
+guid: {a: 9818407062385766165, b: 5712887578861142204}
+enabled: true
+localPosition: {x: 0.009039589, y: 8.9841, z: -26.49396}
+localScale: {x: 5.732845, y: 5.732845, z: 5.732845}
+localOrientation: {w: -1.376788e-07, x: 1.376788e-07, y: 0.7071068, z: 0.7071067}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Headphones
+guid: {a: 13713253312533973180, b: 15603786186853115319}
+enabled: true
+localPosition: {x: 0.009041177, y: 3.845993, z: -5.948314}
+localScale: {x: 5.732845, y: 5.732845, z: 5.732845}
+localOrientation: {w: -1.376788e-07, x: 1.376788e-07, y: 0.7071068, z: 0.7071067}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: NVG.004
+guid: {a: 522489891376311681, b: 13128839686586560441}
+enabled: true
+localPosition: {x: 0.009042368, y: 7.84433, z: 5.515401}
+localScale: {x: 5.732845, y: 5.732844, z: 5.732844}
+localOrientation: {w: -8.956843e-08, x: 8.477514e-08, y: 0.9822839, z: -0.187399}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: male_LOD0
+guid: {a: 15225888323285492375, b: 6057130760038787463}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: root
+guid: {a: 9894102211998088942, b: 13309223500493953942}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: pelvis
+guid: {a: 596162152681224491, b: 4756812322159416706}
+enabled: true
+localPosition: {x: 2.471292e-14, y: -72.88868, z: -7.632288}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5009127, x: -0.4990857, y: -0.5009126, z: 0.4990857}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: spine_01
+guid: {a: 21934557418149431, b: 7488791567542573975}
+enabled: true
+localPosition: {x: 5.724978e-07, y: -59.83446, z: -6.100011}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5034524, x: -0.4965238, y: -0.5034522, z: 0.4965237}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: spine_02
+guid: {a: 11548671866633287539, b: 5078018576040155049}
+enabled: true
+localPosition: {x: 1.194623e-06, y: -45.68204, z: -5.903893}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: -0.4646595, x: 0.5330024, y: 0.4646595, z: -0.5330024}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: spine_03
+guid: {a: 4341702613778544405, b: 17047968076927250364}
+enabled: true
+localPosition: {x: 1.857593e-06, y: -30.59468, z: -7.980701}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: -0.4592167, x: 0.5376989, y: 0.4592167, z: -0.5376989}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: breast_l
+guid: {a: 1461569225918283970, b: 13149484996818658477}
+enabled: true
+localPosition: {x: 7.846697, y: -31.40917, z: -5.40711}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: -0.4592167, x: 0.5376989, y: 0.4592167, z: -0.5376989}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: breast_l_end
+guid: {a: 5784428430360632545, b: 14807000874277592215}
+enabled: true
+localPosition: {x: 7.846697, y: -33.22087, z: -16.84232}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: -0.4592167, x: 0.5376989, y: 0.4592167, z: -0.5376989}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: neck_01
+guid: {a: 11981701319892485454, b: 1403387283123071156}
+enabled: true
+localPosition: {x: -0.01942971, y: -11.28548, z: -10.19784}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5237677, x: -0.4720025, y: -0.5260624, z: 0.4755413}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: head
+guid: {a: 2612958926484623653, b: 3329152388493580186}
+enabled: true
+localPosition: {x: -0.06679818, y: -3.10814, z: -9.358071}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.4936852, x: -0.5039634, y: -0.4955291, z: 0.5067019}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: head_end
+guid: {a: 5137737871314950391, b: 14985559051321876630}
+enabled: true
+localPosition: {x: -0.07374936, y: -3.284482, z: -17.57661}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.4936852, x: -0.5039634, y: -0.4955291, z: 0.5067019}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: clavicle_l
+guid: {a: 16162263102042769352, b: 17819874802101783199}
+enabled: true
+localPosition: {x: 4.671793, y: -20.73394, z: -8.589494}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: -0.1176393, x: 0.2849179, y: 0.647158, z: 0.6972585}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: upperarm_l
+guid: {a: 13712034728879751812, b: 7801899106308004507}
+enabled: true
+localPosition: {x: 17.88326, y: -25.17985, z: -12.68461}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.3009872, x: 0.2763402, y: 0.6508693, z: 0.6398532}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: lowerarm_l
+guid: {a: 5062441196547735794, b: 4169542100724525757}
+enabled: true
+localPosition: {x: 38.4486, y: -46.7181, z: -11.93022}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.4179592, x: 0.1014895, y: 0.6997811, z: 0.5703651}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: hand_l
+guid: {a: 11980916053662295779, b: 14064376094138221223}
+enabled: true
+localPosition: {x: 53.47113, y: -60.36115, z: 0.3128891}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.4332619, x: 0.1028723, y: 0.6951048, z: 0.5643852}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: index_01_l
+guid: {a: 17242304745021285267, b: 14718278616603887280}
+enabled: true
+localPosition: {x: 58.2883, y: -66.6205, z: 8.517407}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5847854, x: 0.1710996, y: 0.5808116, z: 0.5398229}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: index_02_l
+guid: {a: 2542393346926899392, b: 1444719629059298494}
+enabled: true
+localPosition: {x: 59.28553, y: -69.86848, z: 10.45891}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.6082748, x: 0.2896437, y: 0.5340631, z: 0.5107689}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: index_03_l
+guid: {a: 6145085240474920306, b: 1128255350892230318}
+enabled: true
+localPosition: {x: 59.50835, y: -72.39751, z: 11.52341}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.633641, x: 0.2701573, y: 0.5053271, z: 0.519768}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: index_03_l_end
+guid: {a: 3839183010469374213, b: 5767149647505961663}
+enabled: true
+localPosition: {x: 58.44665, y: -71.53387, z: 13.91208}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.633641, x: 0.2701573, y: 0.5053271, z: 0.519768}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: middle_01_l
+guid: {a: 17745036012865031489, b: 15367287727347412370}
+enabled: true
+localPosition: {x: 59.46877, y: -67.41122, z: 6.315266}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5577355, x: 0.2473149, y: 0.5978013, z: 0.5200002}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: middle_02_l
+guid: {a: 17961777474077096891, b: 3368099992883587773}
+enabled: true
+localPosition: {x: 60.66178, y: -71.17776, z: 7.883263}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5965773, x: 0.3134423, y: 0.5322722, z: 0.5123824}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: middle_03_l
+guid: {a: 5280930003948714600, b: 15877343413605736114}
+enabled: true
+localPosition: {x: 60.95131, y: -74.16184, z: 8.874279}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.6370887, x: 0.334561, y: 0.4933175, z: 0.4886972}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: middle_03_l_end
+guid: {a: 15152731844015653038, b: 11864140173100318901}
+enabled: true
+localPosition: {x: 60.0274, y: -73.21932, z: 11.74286}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.6370887, x: 0.334561, y: 0.4933175, z: 0.4886972}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: pinky_01_l
+guid: {a: 7083748646342707089, b: 559071271660966046}
+enabled: true
+localPosition: {x: 59.76951, y: -69.05765, z: 1.073047}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5248765, x: 0.3536786, y: 0.5893751, z: 0.502049}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: pinky_02_l
+guid: {a: 10252575609758932840, b: 13228536599327432890}
+enabled: true
+localPosition: {x: 60.44845, y: -71.91299, z: 1.778636}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5173409, x: 0.3789428, y: 0.5786342, z: 0.5039277}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: pinky_03_l
+guid: {a: 15078469625021057059, b: 852260246136398988}
+enabled: true
+localPosition: {x: 60.75319, y: -73.84953, z: 2.283284}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5666283, x: 0.4133931, y: 0.5392268, z: 0.4661255}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: pinky_03_l_end
+guid: {a: 2900505383233259666, b: 4461022915544078769}
+enabled: true
+localPosition: {x: 60.58636, y: -73.39677, z: 4.249212}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5666283, x: 0.4133931, y: 0.5392268, z: 0.4661255}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: ring_01_l
+guid: {a: 14360401230909525812, b: 14809206698104964029}
+enabled: true
+localPosition: {x: 59.81661, y: -68.30738, z: 3.704016}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.5223349, x: 0.3018248, y: 0.5893805, z: 0.5373068}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: ring_02_l
+guid: {a: 3837176823482241818, b: 15774072366072307622}
+enabled: true
+localPosition: {x: 61.01067, y: -71.92839, z: 4.843726}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5687767, x: 0.3515602, y: 0.5323333, z: 0.519153}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: ring_03_l
+guid: {a: 7368238828057737769, b: 7031392273913467583}
+enabled: true
+localPosition: {x: 61.28117, y: -74.45284, z: 5.476236}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.588088, x: 0.3514983, y: 0.5250709, z: 0.5048783}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: ring_03_l_end
+guid: {a: 18108236128248133549, b: 6229821598963562938}
+enabled: true
+localPosition: {x: 60.69323, y: -73.81678, z: 7.945243}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.588088, x: 0.3514983, y: 0.5250709, z: 0.5048783}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: thumb_01_l
+guid: {a: 14286899966036946950, b: 15481815361189535383}
+enabled: true
+localPosition: {x: 53.59772, y: -62.04675, z: 4.699461}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.7414547, x: -0.364049, y: 0.4270346, z: 0.3679058}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: thumb_02_l
+guid: {a: 14503016635904235354, b: 16388437906157638079}
+enabled: true
+localPosition: {x: 52.58105, y: -63.15294, z: 7.818266}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.6705117, x: -0.2565717, y: 0.246388, z: 0.6510592}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: thumb_03_l
+guid: {a: 17456881688884067158, b: 5826627292421886385}
+enabled: true
+localPosition: {x: 52.47963, y: -65.24593, z: 9.954151}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.587531, x: -0.3221164, y: 0.1652004, z: 0.7237108}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: thumb_03_l_end
+guid: {a: 11550269925771438990, b: 8956874307439156378}
+enabled: true
+localPosition: {x: 49.61665, y: -66.00903, z: 9.53707}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.587531, x: -0.3221164, y: 0.1652004, z: 0.7237108}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: lowerarm_twist_01_l
+guid: {a: 8379841162758699595, b: 2637446715866792075}
+enabled: true
+localPosition: {x: 45.59159, y: -53.17654, z: -6.145967}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.4180953, x: 0.09062201, y: 0.7043301, z: 0.5664831}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: lowerarm_twist_01_l_end
+guid: {a: 6723737490641368977, b: 10498817035403325626}
+enabled: true
+localPosition: {x: 39.54748, y: -47.20689, z: 9.115896}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.4180953, x: 0.09062201, y: 0.7043301, z: 0.5664831}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: upperarm_twist_01_l
+guid: {a: 4345285438443846402, b: 7031220757592588208}
+enabled: true
+localPosition: {x: 17.88325, y: -25.17986, z: -12.6846}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.6398488, x: -0.6508644, y: 0.2763505, z: -0.3009976}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: upperarm_twist_01_l_end
+guid: {a: 11046525583792760827, b: 15932761183890404528}
+enabled: true
+localPosition: {x: 18.26236, y: -25.60358, z: -27.56836}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.6398488, x: -0.6508644, y: 0.2763505, z: -0.3009976}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: breast_r
+guid: {a: 7873086985953521184, b: 12079723683027386023}
+enabled: true
+localPosition: {x: -7.846694, y: -31.40914, z: -5.407116}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5376989, x: 0.4592168, y: -0.5376987, z: -0.4592167}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: breast_r_end
+guid: {a: 15222224288762828946, b: 7820732445086411443}
+enabled: true
+localPosition: {x: -7.846694, y: -29.59744, z: 6.028098}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5376989, x: 0.4592168, y: -0.5376987, z: -0.4592167}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: clavicle_r
+guid: {a: 17604224130037224214, b: 9003088481656556437}
+enabled: true
+localPosition: {x: -4.67179, y: -20.73375, z: -8.589497}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.2849185, x: 0.1176392, y: 0.6972582, z: -0.647158}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: upperarm_r
+guid: {a: 93901556708361024, b: 16885472988323667329}
+enabled: true
+localPosition: {x: -17.88326, y: -25.17948, z: -12.68461}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065622}
+localOrientation: {w: -0.2763506, x: 0.3009973, y: -0.6398486, z: 0.6508647}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: lowerarm_r
+guid: {a: 11407440703154312556, b: 15502730779906425500}
+enabled: true
+localPosition: {x: -38.44862, y: -46.71783, z: -11.93022}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.1014898, x: 0.417959, y: -0.570365, z: 0.6997814}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &58
+name: hand_r
+guid: {a: 4919213151022005817, b: 2923881364264868491}
+enabled: true
+localPosition: {x: -53.47118, y: -60.36108, z: 0.3129015}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.1028728, x: 0.4332618, y: -0.5643852, z: 0.695105}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &59
+name: index_01_r
+guid: {a: 17171889137488667741, b: 7278645130466807994}
+enabled: true
+localPosition: {x: -58.28836, y: -66.62041, z: 8.517428}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.1710997, x: 0.5847847, y: -0.5398232, z: 0.5808122}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &60
+name: index_02_r
+guid: {a: 10827382502771488908, b: 885224608261816230}
+enabled: true
+localPosition: {x: -59.28556, y: -69.86851, z: 10.45891}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.289645, x: 0.6082754, y: -0.5107685, z: 0.5340622}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &61
+name: index_03_r
+guid: {a: 2902430835951726714, b: 14880556291726669720}
+enabled: true
+localPosition: {x: -59.50844, y: -72.39743, z: 11.5234}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.2701582, x: 0.6336421, y: -0.5197665, z: 0.5053267}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &62
+name: index_03_r_end
+guid: {a: 8884158198524983473, b: 9808215844935357372}
+enabled: true
+localPosition: {x: -60.5701, y: -73.26105, z: 9.134817}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.2701582, x: 0.6336421, y: -0.5197665, z: 0.5053267}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &63
+name: middle_01_r
+guid: {a: 10394903207045832322, b: 18090857022306376862}
+enabled: true
+localPosition: {x: -59.46883, y: -67.41112, z: 6.315279}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.247316, x: 0.5577353, y: -0.52, z: 0.5978011}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &64
+name: middle_02_r
+guid: {a: 11118885698213206182, b: 13190354081314509750}
+enabled: true
+localPosition: {x: -60.66187, y: -71.17812, z: 7.883276}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.313443, x: 0.596577, y: -0.5123821, z: 0.5322726}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &65
+name: middle_03_r
+guid: {a: 6648631036652297426, b: 12591345749452066231}
+enabled: true
+localPosition: {x: -60.95134, y: -74.16179, z: 8.874329}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3345613, x: 0.6370885, y: -0.4886968, z: 0.4933177}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &66
+name: middle_03_r_end
+guid: {a: 16595160604508921360, b: 17072073796735554474}
+enabled: true
+localPosition: {x: -61.87513, y: -75.10419, z: 6.006124}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3345613, x: 0.6370885, y: -0.4886968, z: 0.4933177}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &67
+name: pinky_01_r
+guid: {a: 17458686948365791024, b: 4739506956488914618}
+enabled: true
+localPosition: {x: -59.76957, y: -69.05756, z: 1.073059}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3536797, x: 0.5248763, y: -0.502049, z: 0.5893746}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: pinky_02_r
+guid: {a: 18392885720385962109, b: 13339927585109535126}
+enabled: true
+localPosition: {x: -60.44848, y: -71.91295, z: 1.77865}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3789463, x: 0.5173438, y: -0.5039248, z: 0.5786321}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &69
+name: pinky_03_r
+guid: {a: 810957511214477931, b: 10582831139434327194}
+enabled: true
+localPosition: {x: -60.75325, y: -73.84943, z: 2.283293}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.4133927, x: 0.566628, y: -0.4661254, z: 0.5392275}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &70
+name: pinky_03_r_end
+guid: {a: 17027436292638144898, b: 4401892784815251882}
+enabled: true
+localPosition: {x: -60.92007, y: -74.30218, z: 0.3174086}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.4133927, x: 0.566628, y: -0.4661254, z: 0.5392275}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &71
+name: ring_01_r
+guid: {a: 8451253297781597227, b: 14660369413460761503}
+enabled: true
+localPosition: {x: -59.81666, y: -68.30729, z: 3.704032}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3018244, x: 0.5223346, y: -0.5373064, z: 0.5893813}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &72
+name: ring_02_r
+guid: {a: 523873046174972869, b: 10325593489139954594}
+enabled: true
+localPosition: {x: -61.01067, y: -71.92827, z: 4.843719}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3515619, x: 0.5687775, y: -0.5191521, z: 0.5323321}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &73
+name: ring_03_r
+guid: {a: 9531754976858402231, b: 15128303459956023443}
+enabled: true
+localPosition: {x: -61.28126, y: -74.45279, z: 5.476211}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3514987, x: 0.5880888, y: -0.504877, z: 0.525071}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &74
+name: ring_03_r_end
+guid: {a: 4559700446355911473, b: 7802425790483539374}
+enabled: true
+localPosition: {x: -61.86921, y: -75.08887, z: 3.00716}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3514987, x: 0.5880888, y: -0.504877, z: 0.525071}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &75
+name: thumb_01_r
+guid: {a: 2901395359118034225, b: 1808658559859568573}
+enabled: true
+localPosition: {x: -53.59771, y: -62.04678, z: 4.699468}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.3640498, x: 0.7414541, y: -0.3679066, z: 0.4270343}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &76
+name: thumb_02_r
+guid: {a: 6072440236138561491, b: 15567772087838580134}
+enabled: true
+localPosition: {x: -52.58106, y: -63.15293, z: 7.818238}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: 0.2565711, x: 0.6705117, y: -0.6510595, z: 0.2463878}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &77
+name: thumb_03_r
+guid: {a: 5136268431144725263, b: 18174626335387795865}
+enabled: true
+localPosition: {x: -52.47971, y: -65.24586, z: 9.95421}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3221157, x: -0.5875311, y: 0.723711, z: -0.1652005}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &78
+name: thumb_03_r_end
+guid: {a: 2181232266806126046, b: 1826794310496427186}
+enabled: true
+localPosition: {x: -55.34269, y: -64.48277, z: 10.37129}
+localScale: {x: 1.065622, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.3221157, x: -0.5875311, y: 0.723711, z: -0.1652005}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &79
+name: lowerarm_twist_01_r
+guid: {a: 8450385176637079812, b: 1477741933621699243}
+enabled: true
+localPosition: {x: -45.59161, y: -53.17658, z: -6.145956}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.09062207, x: 0.4180948, y: -0.5664831, z: 0.7043303}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &80
+name: lowerarm_twist_01_r_end
+guid: {a: 6723640774745192629, b: 8798783116267222403}
+enabled: true
+localPosition: {x: -51.63576, y: -59.14627, z: -21.40796}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065622}
+localOrientation: {w: -0.09062207, x: 0.4180948, y: -0.5664831, z: 0.7043303}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &81
+name: upperarm_twist_01_r
+guid: {a: 2902905830956278846, b: 11509591962818210948}
+enabled: true
+localPosition: {x: -17.88327, y: -25.17948, z: -12.68461}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.6508762, x: 0.6398592, y: 0.3009724, z: 0.2763262}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &82
+name: upperarm_twist_01_r_end
+guid: {a: 3047485008459138926, b: 17663003281877261752}
+enabled: true
+localPosition: {x: -17.50418, y: -24.75576, z: 2.19921}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.6508762, x: 0.6398592, y: 0.3009724, z: 0.2763262}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &83
+name: belly
+guid: {a: 8953692958977114778, b: 6560066849268851096}
+enabled: true
+localPosition: {x: 5.537554e-07, y: -59.59922, z: -0.7658863}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5034524, x: -0.4965238, y: -0.5034522, z: 0.4965237}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &84
+name: belly_end
+guid: {a: 18107034963624234075, b: 15725629589896994720}
+enabled: true
+localPosition: {x: 5.587331e-07, y: -59.46416, z: -10.5115}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5034524, x: -0.4965238, y: -0.5034522, z: 0.4965237}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &85
+name: thigh_l
+guid: {a: 7153441817021087279, b: 13692573162699715993}
+enabled: true
+localPosition: {x: 10.65624, y: -78.02609, z: -4.856777}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5301259, x: -0.5011905, y: 0.5206536, z: -0.4435026}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &86
+name: calf_l
+guid: {a: 4559511021841398563, b: 15038221545040289931}
+enabled: true
+localPosition: {x: 12.38288, y: -121.4707, z: -7.094299}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5336135, x: -0.4906756, y: 0.521361, z: -0.4501964}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &87
+name: foot_l
+guid: {a: 9604497733372865742, b: 3937594736025811337}
+enabled: true
+localPosition: {x: 14.46792, y: -167.1522, z: -12.48037}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5535728, x: -0.4661177, y: 0.5717254, z: -0.3865508}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &88
+name: ball_l
+guid: {a: 13421887747898898986, b: 16426406669504869011}
+enabled: true
+localPosition: {x: 18.09801, y: -175.2367, z: 3.307304}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5176344, x: -0.4438175, y: 0.6560937, z: -0.3234529}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &89
+name: ball_l_end
+guid: {a: 3911362796765741975, b: 4772918630895542707}
+enabled: true
+localPosition: {x: 13.61685, y: -168.0525, z: -12.69564}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5176344, x: -0.4438175, y: 0.6560937, z: -0.3234529}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &90
+name: calf_twist_01_l
+guid: {a: 16523700180184447905, b: 8771144677086624400}
+enabled: true
+localPosition: {x: 13.58437, y: -147.4222, z: -10.14269}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5336134, x: -0.4906757, y: 0.5213611, z: -0.4501964}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &91
+name: calf_twist_01_l_end
+guid: {a: 16953878632443140675, b: 9512083202520821376}
+enabled: true
+localPosition: {x: 12.45885, y: -143.3384, z: -45.99463}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5336134, x: -0.4906757, y: 0.5213611, z: -0.4501964}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &92
+name: thigh_twist_01_l
+guid: {a: 17744728846822723540, b: 11655602591454255789}
+enabled: true
+localPosition: {x: 11.35954, y: -96.02967, z: -5.759103}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5365086, x: -0.4865589, y: 0.5345712, z: -0.4354914}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &93
+name: thigh_twist_01_l_end
+guid: {a: 13063424586673177601, b: 9858977245244140182}
+enabled: true
+localPosition: {x: 9.730517, y: -91.49718, z: -36.1682}
+localScale: {x: 1.065623, y: 1.065622, z: 1.065623}
+localOrientation: {w: 0.5365086, x: -0.4865589, y: 0.5345712, z: -0.4354914}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &94
+name: thigh_r
+guid: {a: 3190305633671985755, b: 14887677492450101126}
+enabled: true
+localPosition: {x: -10.65624, y: -78.02612, z: -4.856779}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065626}
+localOrientation: {w: 0.5011407, x: 0.5301831, y: 0.4434337, z: 0.5207018}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &95
+name: calf_r
+guid: {a: 8810725439997681767, b: 14782512355290023841}
+enabled: true
+localPosition: {x: -12.38386, y: -121.4702, z: -7.104022}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065626}
+localOrientation: {w: 0.4906242, x: 0.5336677, y: 0.4501291, z: 0.5214119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &96
+name: foot_r
+guid: {a: 13133834003397602668, b: 6034416465590747051}
+enabled: true
+localPosition: {x: -14.46995, y: -167.1505, z: -12.50032}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065625}
+localOrientation: {w: 0.4660637, x: 0.5536224, y: 0.3864782, z: 0.5717705}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &97
+name: ball_r
+guid: {a: 18033448548279669259, b: 7958883225515689102}
+enabled: true
+localPosition: {x: -18.10045, y: -175.2384, z: 3.285458}
+localScale: {x: 1.065633, y: 1.065624, z: 1.065625}
+localOrientation: {w: 0.4437676, x: 0.5176796, y: 0.3233713, z: 0.656132}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &98
+name: ball_r_end
+guid: {a: 4485848508333398602, b: 4704849280273317548}
+enabled: true
+localPosition: {x: -22.58204, y: -182.4261, z: 19.28669}
+localScale: {x: 1.065633, y: 1.065624, z: 1.065625}
+localOrientation: {w: 0.4437676, x: 0.5176796, y: 0.3233713, z: 0.656132}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &99
+name: calf_twist_01_r
+guid: {a: 5856768634510570675, b: 8797808934081470857}
+enabled: true
+localPosition: {x: -13.58592, y: -147.421, z: -10.15823}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065625}
+localOrientation: {w: 0.4906243, x: 0.5336677, y: 0.4501292, z: 0.5214119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &100
+name: calf_twist_01_r_end
+guid: {a: 12848718493544030724, b: 4900859957792709004}
+enabled: true
+localPosition: {x: -14.71213, y: -151.5128, z: 25.69283}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065625}
+localOrientation: {w: 0.4906243, x: 0.5336677, y: 0.4501292, z: 0.5214119}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &101
+name: thigh_twist_01_r
+guid: {a: 7945901095822494180, b: 13057769009436533892}
+enabled: true
+localPosition: {x: -11.35996, y: -96.02943, z: -5.76313}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065625}
+localOrientation: {w: 0.4865077, x: 0.5365626, y: 0.4354222, z: 0.5346199}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &102
+name: thigh_twist_01_r_end
+guid: {a: 12556503393121265363, b: 7744563091030867841}
+enabled: true
+localPosition: {x: -12.98959, y: -100.5687, z: 24.64488}
+localScale: {x: 1.065634, y: 1.065623, z: 1.065625}
+localOrientation: {w: 0.4865077, x: 0.5365626, y: 0.4354222, z: 0.5346199}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &103
+name: ik_foot_root
+guid: {a: 12343970844312219493, b: 13658093438316673422}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &104
+name: ik_foot_l
+guid: {a: 12484292241609423760, b: 7840427700536878223}
+enabled: true
+localPosition: {x: 14.46582, y: -167.1529, z: -12.47509}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5101071, x: -0.5179971, y: 0.5355228, z: -0.4297503}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &105
+name: ik_foot_l_end
+guid: {a: 5206813604819886240, b: 8777051857517892535}
+enabled: true
+localPosition: {x: 12.29037, y: -165.3957, z: -30.96045}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.5101071, x: -0.5179971, y: 0.5355228, z: -0.4297503}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &106
+name: ik_foot_r
+guid: {a: 14288343883172859182, b: 13764611903678309803}
+enabled: true
+localPosition: {x: -14.46584, y: -167.1529, z: -12.47508}
+localScale: {x: 1.065621, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.5179983, x: 0.5101079, y: 0.4297488, z: 0.5355219}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &107
+name: ik_foot_r_end
+guid: {a: 3479176568661804526, b: 17234679533230528951}
+enabled: true
+localPosition: {x: -16.64132, y: -168.91, z: 6.010277}
+localScale: {x: 1.065621, y: 1.065623, z: 1.065622}
+localOrientation: {w: 0.5179983, x: 0.5101079, y: 0.4297488, z: 0.5355219}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &108
+name: ik_hand_root
+guid: {a: 17241061741330413142, b: 14647056561081213866}
+enabled: true
+localPosition: {x: 0, y: -177.8939, z: -7.485187}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.7071067, x: -0.7071068, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &109
+name: ik_hand_gun
+guid: {a: 10181370710879553982, b: 12382091990374310557}
+enabled: true
+localPosition: {x: -53.47117, y: -60.36104, z: 0.3128576}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.9175732, x: -0.04238814, y: 0.2259878, z: 0.3243336}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &110
+name: ik_hand_l
+guid: {a: 7083805823188947416, b: 8123068063197941126}
+enabled: true
+localPosition: {x: 53.47116, y: -60.36094, z: 0.3128424}
+localScale: {x: 1.065622, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.04238702, x: 0.9175732, y: -0.3243333, z: 0.2259885}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &111
+name: ik_hand_l_end
+guid: {a: 4057349170809031385, b: 2466487979579107465}
+enabled: true
+localPosition: {x: 20.6207, y: -102.3906, z: -3.366239}
+localScale: {x: 1.065622, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.04238702, x: 0.9175732, y: -0.3243333, z: 0.2259885}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &112
+name: ik_hand_r
+guid: {a: 6939109099486499729, b: 16879876198972131494}
+enabled: true
+localPosition: {x: -53.47118, y: -60.36105, z: 0.3131077}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.9175733, x: -0.04238803, y: 0.2259876, z: 0.3243335}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &113
+name: ik_hand_r_end
+guid: {a: 14936677270706592742, b: 12200522787760113818}
+enabled: true
+localPosition: {x: -86.32169, y: -18.33144, z: 3.992065}
+localScale: {x: 1.065623, y: 1.065623, z: 1.065623}
+localOrientation: {w: 0.9175733, x: -0.04238803, y: 0.2259876, z: 0.3243335}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &114
+name: Headphones
+guid: {a: 2325811278185080429, b: 5136602900048066205}
+enabled: true
+localPosition: {x: 0.009041177, y: 3.845993, z: -5.948314}
+localScale: {x: 5.86442, y: 5.86442, z: 5.86442}
+localOrientation: {w: -1.376788e-07, x: 1.376788e-07, y: 0.7071069, z: 0.7071066}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &115
+name: NVG.004
+guid: {a: 5928246859835369516, b: 6192135320849061523}
+enabled: true
+localPosition: {x: 0.00904233, y: 7.950882, z: 5.408839}
+localScale: {x: 6.013566, y: 6.013564, z: 6.013566}
+localOrientation: {w: -1.586599e-07, x: 3.701621e-08, y: 0.2272038, z: 0.9738473}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &116
+name: ""
+guid: {a: 8377810369975624316, b: 17331733295883751041}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &119
+name: ""
+guid: {a: 7875756769527616815, b: 13161560855567446932}
+enabled: true
+localPosition: {x: 0, y: -0.2029476, z: -19.79495}
+localScale: {x: 1, y: 1, z: 0}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+children:
+  - {localId: 120}
+  - {localId: 124}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &120
+name: ""
+guid: {a: 13277761623689741015, b: 1750655999469475982}
+enabled: true
+localPosition: {x: 3.002978, y: 1.283742, z: 33.92669}
+localScale: {x: 0.03644199, y: 0.02244795, z: 0.02244795}
+localOrientation: {w: 0.7071067, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 119}
+children:
+  - {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &121
+name: SkeletonAndRenderRoot
+guid: {a: 12989400727597748763, b: 12263404236800673463}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 120}
+children:
+  - {localId: 122}
+  - {localId: 123}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &122
+name: Cylinder
+guid: {a: 13640202328789655602, b: 4321739701673620394}
+enabled: true
+localPosition: {x: -696.6688, y: 0.0001869202, z: -0.0009307861}
+localScale: {x: 11.63445, y: 14.43255, z: 1294.545}
+localOrientation: {w: 0.5, x: -0.5, y: 0.5, z: -0.5}
+parent: {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &123
+name: Cylinder
+guid: {a: 15944901033783507286, b: 5260992826055000203}
+enabled: true
+localPosition: {x: -841.7878, y: 0.0001869202, z: -0.0005187988}
+localScale: {x: 31.08502, y: 19.1481, z: 1465.453}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5000001}
+parent: {localId: 121}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &124
+name: ""
+guid: {a: 7584855284128610211, b: 4797065583978385039}
+enabled: true
+localPosition: {x: -3.01417, y: 1.283742, z: 33.92669}
+localScale: {x: 0.03644198, y: 0.02244795, z: 0.02244794}
+localOrientation: {w: 0.7071067, x: 0, y: 0.7071068, z: 0}
+parent: {localId: 119}
+children:
+  - {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &125
+name: SkeletonAndRenderRoot
+guid: {a: 15512026364628489505, b: 13698040889579011511}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 124}
+children:
+  - {localId: 126}
+  - {localId: 127}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &126
+name: Cylinder
+guid: {a: 887018914489357269, b: 4748103982377540251}
+enabled: true
+localPosition: {x: -696.6688, y: 0.0001869202, z: -0.0001068115}
+localScale: {x: 11.63445, y: 14.43255, z: 1294.545}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5}
+parent: {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &127
+name: Cylinder
+guid: {a: 596431522148888814, b: 13817721382089213861}
+enabled: true
+localPosition: {x: -841.7881, y: 0.0001869202, z: -6.103516e-05}
+localScale: {x: 31.08502, y: 19.14809, z: 1465.453}
+localOrientation: {w: -0.5, x: 0.5, y: -0.5, z: 0.5000001}
+parent: {localId: 125}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &128
+name: ""
+guid: {a: 8596137133781328222, b: 14132022243062362262}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &129
+name: ""
+guid: {a: 16521917853329688779, b: 1540477798283680681}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &130
+name: ""
+guid: {a: 6071660629123453311, b: 13853699992658355860}
+enabled: true
+localPosition: {x: -7.026802, y: -2.309947, z: 6.336154}
+localScale: {x: 2.000236, y: 1.32919, z: 1.136905}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &131
+name: ""
+guid: {a: 9244514633313321368, b: 10041242132490882439}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &132
+name: ""
+guid: {a: 8452044993445763668, b: 9191278514966379416}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !IFTransform2d &133
+name: ""
+guid: {a: 2902639218905118089, b: 2263747313519048637}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: 0}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: 0
+--- !IFTransform2d &134
+name: ""
+guid: {a: 12199269854936378199, b: 9816140978925432763}
+enabled: true
+localPosition: {x: 0, y: -4.730527e-08, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 0, y: -3.027537e-05}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -1
+--- !IFTransform2d &135
+name: ""
+guid: {a: 15225610769410534411, b: 13792728045955619462}
+enabled: true
+localPosition: {x: 1.490116e-08, y: -0.04522886, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+position: {x: 9.536743e-06, y: -28.94647}
+rotation: 0
+scale: {x: 1, y: 1}
+size: {x: 720, y: 1337.893}
+pivot: {x: 0.5, y: 0.5}
+flipX: false
+flipY: false
+depth: -2

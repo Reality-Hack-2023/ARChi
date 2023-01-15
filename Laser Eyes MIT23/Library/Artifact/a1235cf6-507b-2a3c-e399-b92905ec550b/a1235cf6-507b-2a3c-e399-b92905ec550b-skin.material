@@ -1,0 +1,47 @@
+%YAML 1.1
+--- !Material &1
+name: Standard PBR (1)
+guid: {a: 5929814768663132395, b: 18446562805335041169}
+xshader: {localId: 1, path: a1235cf6-507b-2a3c-e399-b92905ec550b--a1235cf6-507b-2a3c-e399-b92905ec550b.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 3549670342900693910, b: 7402244334230159522}
+  floatmap:
+    __class: Map
+    _AmbientIntensity: 7
+    _AmbientRotation: 0.1000000014901161
+    _EmissiveIntensity: 0
+    _Metallic: 0
+    _NormalIntensity: 1
+    _Occlusion: 1
+    _Rotation: 0
+    _Roughness: 0.5
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 0.423491, y: 1, z: 0, w: 0.668367}
+    _EmissiveColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _AmbientTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000020--00000000-0000-0000-0000-000000000020.png}
+    _EmissiveTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _MRAOTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001c--00000000-0000-0000-0000-00000000001c.png}
+    _NormalTexture: {localId: 1, path: 00000000-0000-0000-0000-00000000001f--00000000-0000-0000-0000-00000000001f.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

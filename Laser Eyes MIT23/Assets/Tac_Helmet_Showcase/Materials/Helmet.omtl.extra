@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "781ac4e5-60a9-e2b2-1781-76879f36a215",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Helmet",
+    "objGuid": "Guid(7656851560056942889, 17924970958802737553)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(13208528593951079533, 9720847797293772169)"
+  }
+]

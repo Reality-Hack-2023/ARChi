@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "5178efe7-ad64-34aa-c2e3-c07f000a5625",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "frame_00_delay-0.1s",
+    "objGuid": "Guid(3982384132201402598, 8350414380160003519)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 256
+  }
+]
