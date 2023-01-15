@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "15f93472-61b2-3230-8967-16cecf8178e7",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Laseer",
+    "objGuid": "Guid(18104888414851601065, 4105012464487840444)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(16303136179454470688, 8290121182306269345)"
+  }
+]

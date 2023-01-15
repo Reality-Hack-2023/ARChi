@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "446b75a2-231f-2f82-d877-b3efda79af06",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Bullets",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

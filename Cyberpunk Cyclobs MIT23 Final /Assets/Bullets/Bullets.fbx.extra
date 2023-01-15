@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "c7dad426-611e-564f-2241-5479135eef4b",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Bullets",
+    "objGuid": "Guid(10107760990633582342, 6992016434884781986)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "c698da26-0997-71a8-e11f-a758ef840857"
+    ],
+    "meshGUIDs": [
+      "517c781a-95ba-4741-9196-981e5c8198c2",
+      "a00f44e9-e74e-d7a0-91ed-6561b285544e",
+      "cb11c3a9-baf1-ba31-9de1-ae010e59550c",
+      "cd8b333f-caca-8d98-0af4-5ad5072d4856",
+      "da78a511-5139-d297-21b8-f587ecab33ec",
+      "c3b632f8-6621-4135-4eae-7588cf4e0e98"
+    ],
+    "animazGUIDs": []
+  }
+]
