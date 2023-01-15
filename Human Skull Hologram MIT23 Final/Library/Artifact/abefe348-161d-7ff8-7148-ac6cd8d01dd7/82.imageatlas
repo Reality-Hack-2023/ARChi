@@ -1,0 +1,29 @@
+%YAML 1.1
+--- !ImageAtlas &2
+name: ""
+guid: {a: 11476477216963651499, b: 14967236644692024767}
+frames:
+  - __class: ImageFrame
+    name: ""
+    guid: {a: 3479147502349144438, b: 13595868818533354662}
+    rotate:
+      __class: RotateType
+      value: ROTATE_0
+    trimed: false
+    outerRect: {x: 1, y: 1, z: 0, w: 0}
+    innerRect: {x: 1, y: 1, z: 0, w: 0}
+uri: Library/Artifact/abefe348-161d-7ff8-7148-ac6cd8d01dd7/82.png
+--- !ImageAtlas &3
+name: ""
+guid: {a: 5858152971947853262, b: 16620730369448087963}
+frames:
+  - __class: ImageFrame
+    name: ""
+    guid: {a: 8235631242085560832, b: 290833714672088510}
+    rotate:
+      __class: RotateType
+      value: ROTATE_0
+    trimed: false
+    outerRect: {x: 1, y: 1, z: 0, w: 0}
+    innerRect: {x: 1, y: 1, z: 0, w: 0}
+uri: Library/Artifact/abefe348-161d-7ff8-7148-ac6cd8d01dd7/82.png

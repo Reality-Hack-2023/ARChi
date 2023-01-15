@@ -1,0 +1,167 @@
+%YAML 1.1
+--- !AnimSeq &2
+name: frame (1)
+guid: {a: 14073569574827095634, b: 9705883040530816933}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--0.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--1.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--2.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--3.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--4.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--5.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--6.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--7.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--8.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--9.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--10.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--11.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--12.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--13.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--14.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--15.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--16.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--17.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--18.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--19.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--20.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--21.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--22.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--23.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--24.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--25.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--26.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--27.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--28.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--29.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--30.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--31.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--32.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--33.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--34.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--35.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--36.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--37.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--38.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--39.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--40.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--41.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--42.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--43.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--44.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--45.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--46.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--47.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--48.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--49.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--50.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--51.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--52.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--53.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--54.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--55.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--56.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--57.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--58.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--59.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--60.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--61.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--62.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--63.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--64.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--65.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--66.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--67.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--68.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--69.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--70.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--71.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--72.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--73.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--74.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--75.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--76.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--77.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--78.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--79.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--80.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--81.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--82.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--83.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--84.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--85.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--86.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--87.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--88.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--89.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--90.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--91.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--92.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--93.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--94.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--95.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--96.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--97.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--98.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--99.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--100.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--101.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--102.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--103.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--104.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--105.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--106.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--107.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--108.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--109.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--110.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--111.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--112.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--113.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--114.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--115.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--116.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--117.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--118.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--119.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--120.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--121.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--122.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--123.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--124.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--125.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--126.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--127.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--128.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--129.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--130.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--131.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--132.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--133.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--134.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--135.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--136.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--137.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--138.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--139.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--140.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--141.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--142.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--143.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--144.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--145.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--146.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--147.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--148.imageatlas}
+  - {localId: 3, path: abefe348-161d-7ff8-7148-ac6cd8d01dd7--149.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0

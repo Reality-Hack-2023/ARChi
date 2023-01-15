@@ -1,0 +1,35 @@
+[
+  {
+    "guid": {
+      "a": "2710f20c-508c-3893-ac42-389d8624ccb6",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "test",
+    "objGuid": "Guid(13494572567154365656, 16846167677354956195)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "400929ef-2781-2b38-ec3e-1fdfda5e3070"
+    ],
+    "meshGUIDs": [
+      "51119afc-9a9d-4aed-a716-d175754582d1",
+      "70c4822d-bb66-7c42-1c72-051ea6fb290d",
+      "de61c083-1990-c2a9-03d3-d71175152ce8",
+      "ae0b1456-e562-6b11-e660-19c028f49006",
+      "fb93de91-8b1a-fceb-dd7e-d4a2d5c8ebd0",
+      "0566405b-e448-e1cb-0b90-82dc12197739",
+      "08fc2a28-2291-63c2-3d2b-6aa2471d7c6e",
+      "1325e62f-7894-9d5a-394e-26ecd428d2dd",
+      "c6a8d4bf-2161-9d6f-216f-639565fdd04f"
+    ],
+    "animazGUIDs": [
+      "92cf7291-417e-227d-7ff8-bfe392fc5b32"
+    ]
+  }
+]

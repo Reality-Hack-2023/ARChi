@@ -1,0 +1,15 @@
+%YAML 1.1
+--- !ImageAtlas &1
+name: ""
+guid: {a: 15872337795897117611, b: 5331312782847764363}
+frames:
+  - __class: ImageFrame
+    name: ""
+    guid: {a: 14936128079086245407, b: 9865328925414184631}
+    rotate:
+      __class: RotateType
+      value: ROTATE_0
+    trimed: false
+    outerRect: {x: 1, y: 1, z: 0, w: 0}
+    innerRect: {x: 1, y: 1, z: 0, w: 0}
+uri: Library/Artifact/9a50a19e-cad7-0cad-5069-f3059c83837d/65.png

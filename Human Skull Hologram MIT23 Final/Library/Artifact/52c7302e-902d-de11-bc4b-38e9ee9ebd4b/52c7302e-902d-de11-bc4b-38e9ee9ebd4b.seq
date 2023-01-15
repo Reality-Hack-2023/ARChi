@@ -1,0 +1,137 @@
+%YAML 1.1
+--- !AnimSeq &1
+name: Texture Sequence
+guid: {a: 5857933530855687664, b: 18067562061084288185}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--0.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--1.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--2.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--3.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--4.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--5.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--6.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--7.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--8.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--9.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--10.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--11.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--12.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--13.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--14.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--15.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--16.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--17.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--18.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--19.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--20.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--21.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--22.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--23.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--24.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--25.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--26.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--27.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--28.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--29.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--30.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--31.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--32.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--33.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--34.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--35.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--36.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--37.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--38.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--39.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--40.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--41.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--42.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--43.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--44.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--45.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--46.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--47.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--48.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--49.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--50.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--51.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--52.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--53.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--54.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--55.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--56.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--57.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--58.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--59.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--60.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--61.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--62.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--63.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--64.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--65.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--66.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--67.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--68.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--69.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--70.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--71.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--72.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--73.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--74.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--75.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--76.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--77.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--78.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--79.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--80.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--81.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--82.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--83.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--84.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--85.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--86.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--87.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--88.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--89.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--90.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--91.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--92.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--93.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--94.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--95.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--96.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--97.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--98.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--99.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--100.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--101.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--102.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--103.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--104.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--105.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--106.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--107.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--108.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--109.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--110.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--111.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--112.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--113.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--114.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--115.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--116.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--117.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--118.imageatlas}
+  - {localId: 1, path: 52c7302e-902d-de11-bc4b-38e9ee9ebd4b--119.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0

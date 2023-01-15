@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "94b62830-dc68-9334-d68a-d8009ae7beb3",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Materials",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

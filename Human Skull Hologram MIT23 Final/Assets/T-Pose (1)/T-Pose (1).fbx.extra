@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "717530b2-50ba-e307-13df-53d567514c39",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "T-Pose (1)",
+    "objGuid": "Guid(14072610098663751189, 15004847915003536023)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "85e1528e-27b8-656c-a79a-a4458a62bf37"
+    ],
+    "meshGUIDs": [
+      "8b7304b3-5406-51c3-f704-934c7c9f8e16",
+      "d302ec37-31ec-3173-c863-0f764326608d",
+      "89107c83-9e35-a55a-6e85-f1a34391f3b5",
+      "3c9b042e-dcee-2d67-d2e7-521caa0969ac"
+    ],
+    "animazGUIDs": [
+      "c34102f8-3dd2-9e84-a9b1-9dae5ed01297"
+    ]
+  }
+]

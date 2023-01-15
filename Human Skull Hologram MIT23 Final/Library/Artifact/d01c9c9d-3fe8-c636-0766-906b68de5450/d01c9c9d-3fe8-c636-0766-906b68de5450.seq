@@ -1,0 +1,101 @@
+%YAML 1.1
+--- !AnimSeq &1
+name: frame
+guid: {a: 2613056350794113060, b: 8790144483624772999}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--0.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--1.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--2.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--3.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--4.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--5.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--6.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--7.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--8.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--9.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--10.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--11.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--12.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--13.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--14.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--15.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--16.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--17.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--18.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--19.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--20.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--21.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--22.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--23.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--24.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--25.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--26.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--27.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--28.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--29.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--30.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--31.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--32.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--33.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--34.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--35.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--36.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--37.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--38.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--39.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--40.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--41.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--42.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--43.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--44.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--45.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--46.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--47.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--48.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--49.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--50.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--51.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--52.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--53.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--54.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--55.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--56.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--57.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--58.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--59.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--60.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--61.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--62.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--63.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--64.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--65.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--66.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--67.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--68.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--69.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--70.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--71.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--72.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--73.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--74.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--75.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--76.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--77.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--78.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--79.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--80.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--81.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--82.imageatlas}
+  - {localId: 1, path: d01c9c9d-3fe8-c636-0766-906b68de5450--83.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0

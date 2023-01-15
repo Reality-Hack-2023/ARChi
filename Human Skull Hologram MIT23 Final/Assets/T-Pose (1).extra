@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "66aeb82a-a728-2608-fb14-fffcb19899e2",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "T-Pose (1)",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

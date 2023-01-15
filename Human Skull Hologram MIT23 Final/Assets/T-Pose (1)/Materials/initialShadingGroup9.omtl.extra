@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "85e1528e-27b8-656c-a79a-a4458a62bf37",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "initialShadingGroup9",
+    "objGuid": "Guid(1315434529170962549, 16987722196175617979)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(2471864309428349103, 6058926172965738408)"
+  }
+]

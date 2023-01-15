@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "9a50a19e-cad7-0cad-5069-f3059c83837d",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "frame (1)",
+    "objGuid": "Guid(18392906268089190141, 6359175899898920354)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 1,
+    "quality": 1,
+    "maxResolution": 128
+  }
+]
