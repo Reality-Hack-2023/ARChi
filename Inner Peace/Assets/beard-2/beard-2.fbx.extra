@@ -1,0 +1,33 @@
+[
+  {
+    "guid": {
+      "a": "40c9d38b-490c-5841-b259-07a6e62521d3",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "beard-2",
+    "objGuid": "Guid(5456295234881667606, 25840068096862906)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "d8989a05-8f09-6877-f063-66ea28cfde6e"
+    ],
+    "meshGUIDs": [
+      "17129862-ca38-154e-2054-75e00c898609",
+      "6e0ad28f-7ac9-0be4-4b04-d03db0097c3c",
+      "8a94ae19-fdc8-b96d-45f2-d30f2b74dc1f",
+      "f123b990-d77d-9fb9-b13e-b592ed236de9",
+      "e7c6df6b-56c1-dd68-afcd-ee22c6c1adec",
+      "8a8b2292-ee7e-c121-cef1-98dacd075ee3",
+      "83c321b3-58c5-cb78-81be-b11cd54db840",
+      "a6c59657-5ac7-6d8b-cd14-93365ad979e2",
+      "627e7a6b-7be9-b843-0870-146cbb119841"
+    ],
+    "animazGUIDs": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "c2e94558-8950-0dc8-25c3-3190ec1db134",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "texture-halo-inner-peace",
+    "objGuid": "Guid(5368580031903354861, 14232824913306733749)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

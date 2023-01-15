@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "e194ba4d-140f-8bfe-d6f7-5b6f5aa35bfb",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "beard-1",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

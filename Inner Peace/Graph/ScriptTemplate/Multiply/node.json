@@ -1,0 +1,56 @@
+{
+	"name": "Multiply",
+	"id": "f3d04790-2405-2f1e-f847-d8fb322377c6",
+	"inputs": [
+		{
+			"name": "A",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "1",
+			"dynamic": true,
+			"description": "The first value to multiply",
+			"displayType": "Number"
+		},
+		{
+			"name": "B",
+			"type": "Double",
+			"item_type": "",
+			"default_value": "1",
+			"dynamic": true,
+			"description": "The second value to multiply",
+			"displayType": "Number"
+		}
+	],
+	"outputs": [
+		{
+			"name": "A*B",
+			"type": "Double",
+			"item_type": "",
+			"dynamic": true,
+			"description": "The result of  multiplying",
+			"displayType": "Number"
+		}
+	],
+	"js": "CGMultiply.js",
+	"version": "1.0.1",
+	"amazingVersion": "10.40.0",
+	"category": "Math",
+	"description": "Multiply two values. You can click \"+\" to add more inputs. Supported types: Number, Vec2, Vec3, and Vec4.",
+	"supportedValueTypes": [
+		"Double",
+		"Int",
+		"Vector2f",
+		"Vector3f",
+		"Vector4f"
+	],
+	"addableInput": {
+		"index": 1,
+		"baseName": "",
+		"increaseStartIndex": "C"
+	},
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	]
+}

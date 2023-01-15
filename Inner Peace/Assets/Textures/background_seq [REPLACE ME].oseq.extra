@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "d3982925-8e41-ca61-1269-572e84bf6c85",
+      "b": ""
+    },
+    "extraType": "ResItemTextureSequence",
+    "name": "background_seq [REPLACE ME]",
+    "objGuid": "Guid(3985286491608315681, 4032257722014145178)",
+    "rttiType": "AnimSeq",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512
+  }
+]

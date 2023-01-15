@@ -1,0 +1,18 @@
+%YAML 1.1
+--- !AnimSeq &1
+name: Candle-animated
+guid: {a: 5537752706884585950, b: 8788632641759064193}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 1, path: bc06b56d-4046-7801-58d2-881185d36980--0.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0

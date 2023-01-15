@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "49b85af2-d930-a5a8-f0d6-86753c0efa5e",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Candle",
+    "objGuid": "Guid(4813102629570676431, 15194512022631761848)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

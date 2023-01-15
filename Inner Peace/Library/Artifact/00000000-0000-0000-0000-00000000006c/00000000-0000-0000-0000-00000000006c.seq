@@ -1,0 +1,19 @@
+%YAML 1.1
+--- !AnimSeq &1
+name: defaultErrorSeq
+guid: {a: 4975173027921687748, b: 13245045691734219158}
+assettype:
+  __class: SeqAssetType
+  value: atlas
+assetfilename: ""
+fps: 1
+lazyload: true
+cache: false
+atlases:
+  - {localId: 1, path: 00000000-0000-0000-0000-00000000006c--0.imageatlas}
+  - {localId: 1, path: 00000000-0000-0000-0000-00000000006c--1.imageatlas}
+memoryLimit: 0
+preload: false
+indexAction:
+  __class: Map
+preloadCount: 0
