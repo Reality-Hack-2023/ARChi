@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "809708b6-40f8-d169-f338-8239d966fa50",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Pigeon Eye Black",
+    "objGuid": "Guid(5546830655306744337, 12277831381464573613)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4818336330108337276, 17571441103037178032)"
+  }
+]

@@ -1,0 +1,28 @@
+%YAML 1.1
+--- !Material &1
+name: Matte Shadow
+guid: {a: 4846945168984153411, b: 4343504059734769325}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-000000000095--00000000-0000-0000-0000-000000000095.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 5282024301416347785, b: 10781435743252801408}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

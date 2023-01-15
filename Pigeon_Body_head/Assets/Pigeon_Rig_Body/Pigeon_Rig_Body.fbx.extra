@@ -1,0 +1,43 @@
+[
+  {
+    "guid": {
+      "a": "ed5e1ac8-0159-eb38-a6f2-0d75ce3e7fa8",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Pigeon_Rig_Body",
+    "objGuid": "Guid(5714922940064893074, 7721411135602209158)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "20f824af-6e84-3636-2c70-bbb4116709c4",
+      "58bbd3ab-de3d-b554-7266-94540db63b1d",
+      "3cc7308c-87bf-533e-7764-b3a0b64f7591",
+      "a6d62a87-48c8-8b50-1b5a-72b4a931636b",
+      "1664d7d7-e5b4-d286-1ad5-d5557c97b08b",
+      "53f6b8df-939c-872f-e2e2-7199e742a298",
+      "809708b6-40f8-d169-f338-8239d966fa50",
+      "59eacce1-9deb-b38b-b175-6bc8433a1cc8",
+      "c7eba94c-b002-292d-d5b3-0e72301b3707"
+    ],
+    "meshGUIDs": [
+      "b8223bb4-b82d-1dc6-4186-ed8702f517c2",
+      "addcc689-2025-a5ac-a15f-7e16bc74fd8c",
+      "0d5a22b8-bdc2-04b9-28d9-03f3d3998a49",
+      "d93742d2-2c06-6071-cd74-7f930113483a",
+      "9669b74b-8baf-5f57-1db6-f0d9bb5bed58",
+      "715d432b-077c-3e2a-16d5-6699ba4aabf2",
+      "c8dd8eec-f5ae-7c0d-7435-e72c5bcdb3f1",
+      "030aa099-91a7-51ad-ba37-7aa558719502",
+      "2cc5e128-d0f4-84f4-0a50-62e49f241ade"
+    ],
+    "animazGUIDs": [
+      "c3b0f198-de00-1c90-946f-912d737fb9d7"
+    ]
+  }
+]

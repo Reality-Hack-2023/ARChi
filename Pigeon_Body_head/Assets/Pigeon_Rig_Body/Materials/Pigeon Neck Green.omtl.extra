@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "58bbd3ab-de3d-b554-7266-94540db63b1d",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Pigeon Neck Green",
+    "objGuid": "Guid(5347049010147543231, 3525445970370021276)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4864667505899098121, 8389172688598280081)"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "20f824af-6e84-3636-2c70-bbb4116709c4",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "igeon Bright",
+    "objGuid": "Guid(5269364054796339898, 15470328995771915449)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4641747063611029524, 17831932821677870773)"
+  }
+]

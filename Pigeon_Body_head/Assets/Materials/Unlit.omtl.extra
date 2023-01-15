@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "42a1000e-bc8f-25ff-eeb3-a157012e073d",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Unlit",
+    "objGuid": "Guid(4620295491030782186, 18017688995642240177)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5522892222651319270, 10733767104074339467)"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "c7eba94c-b002-292d-d5b3-0e72301b3707",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Pigeon Eye Orange",
+    "objGuid": "Guid(5287005569585247920, 11128782812553153415)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4761406333619939770, 8924094791790574981)"
+  }
+]

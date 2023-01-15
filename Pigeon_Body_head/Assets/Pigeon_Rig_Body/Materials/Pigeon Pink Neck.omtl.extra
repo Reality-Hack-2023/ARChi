@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "3cc7308c-87bf-533e-7764-b3a0b64f7591",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Pigeon Pink Neck",
+    "objGuid": "Guid(5625322859887259072, 7385563998571920563)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(5065846815213788879, 18017864894664267683)"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "4261f455-11f2-a5a0-4b50-f7d2f7bc87a6",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Pigeon_Rig_Body",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
