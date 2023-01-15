@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "60491335-9045-5e9a-213a-3823ee24e9f7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "BodyOccluderAssets",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

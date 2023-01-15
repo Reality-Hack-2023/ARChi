@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "35ec3236-c667-2874-9483-5fc38b67fd22",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "SweaterAssets",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

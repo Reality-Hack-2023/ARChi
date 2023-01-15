@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "7ec85238-8095-f49f-dfeb-c2390bb82c34",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "jeans_baseColor",
+    "objGuid": "Guid(18034756725377641587, 5058282528021950904)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

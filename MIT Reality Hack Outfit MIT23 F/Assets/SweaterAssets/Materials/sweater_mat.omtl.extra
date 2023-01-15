@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "91f33e21-61c4-1ce5-0828-56d70544a47c",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "sweater_mat",
+    "objGuid": "Guid(16951964418291616362, 16351056926901365925)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(17817423610922862091, 3450967513942911401)"
+  }
+]
