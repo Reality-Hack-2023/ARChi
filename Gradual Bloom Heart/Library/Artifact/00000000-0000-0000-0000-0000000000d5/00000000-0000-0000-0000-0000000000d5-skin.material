@@ -1,0 +1,35 @@
+%YAML 1.1
+--- !Material &1
+name: FilterColorCorrectionMaterial
+guid: {a: 4056846219109257931, b: 3158691532895959986}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000d5--00000000-0000-0000-0000-0000000000d5.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 2540398939837067404, b: 15909836173852398009}
+  floatmap:
+    __class: Map
+    _Brightness: 0
+    _Contrast: 1
+    _Exposure: 0
+    _Saturation: 0
+    _Temperature: 0
+    _Tint: 0
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+--- !Material &1
+name: FilterLutMaterial
+guid: {a: 16378054842695451030, b: 11292020422309268370}
+xshader: {localId: 1, path: 00000000-0000-0000-0000-0000000000d3--00000000-0000-0000-0000-0000000000d3.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 1894819345789835693, b: 3570439901226747531}
+  floatmap:
+    __class: Map
+    _Intensity: 1
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _LutTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000026--00000000-0000-0000-0000-000000000026.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+  AE_AMAZING_USE_BONES: !<str> 1
+mshaderPath: ""
+instanceCount: 0

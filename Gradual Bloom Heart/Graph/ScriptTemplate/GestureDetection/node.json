@@ -1,0 +1,93 @@
+{
+	"name": "Gesture Detection",
+	"id": "67144819-16ad-b75d-18d3-0b965c0bafdb",
+	"inputs": [
+		{
+			"name": "Detect",
+			"description": "The hand to detect the gesture. Hand 0 represents the first hand appearing in the scene, Hand 1 represents the second hand appearing in the scene, Either represents either hand appearing in the scene.",
+			"type": "String",
+			"value_list": [
+				"Hand 0",
+				"Hand 1",
+				"Either"
+			],
+			"displayType": "String"
+		},
+		{
+			"name": "Gesture",
+			"description": "The gesture types, including Backhand 3-finger Pointing Up, 4-finger Pointing Up, Fist, Open Palm, \"I Love You\", Horns, Index Finger Up, Victory, Thumb Up, Hand Heart (Thumb Up), Hand Heart (Thumb Down), Open Fist Heart, Finger Heart, Index Pointing, 2-finger Pointing, 3-Finger Pointing Up, OK, \"Call Me\", V (Thumb and Index ), Touching Palms, Kung Fu Salute (Fist Uncovered), \"Pray\", Palm Up, Kung Fu Salute(Fist Covered), Wrist V, Salute, Palm to Front, Pinched Fingers, Thumb Down, Index and Middle Pointing Up",
+			"type": "String",
+			"value_list": [
+				"Backhand 3-Finger Pointing Up",
+				"4-Finger Pointing Up",
+				"Fist",
+				"Open Palm",
+				"\"I Love You\"",
+				"Horns",
+				"Index Pointing up",
+				"Victory",
+				"Thumb up",
+				"Hand Heart(Thumb Up)",
+				"Hand Heart(Thumb Down)",
+				"Open Fist Heart",
+				"Finger Heart",
+				"Index Pointing",
+				"2-Finger Pointing",
+				"3-Finger Pointing Up",
+				"OK",
+				"\"Call Me\"",
+				"V(Thumb and Index)",
+				"Touching Palms",
+				"Kung Fu Salute(Fist Uncovered)",
+				"\"Pray\"",
+				"Palm up",
+				"Kung Fu Salute (Fist Covered)",
+				"Wrist V",
+				"Salute",
+				"Palm To Front",
+				"Pinched Fingers",
+				"Thumb down",
+				"Index and Middle Pointing Up"
+			],
+			"displayType": "String"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Begin",
+			"description": "Execute the next node when the gesture is detected",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Stay",
+			"description": "Keep executing the next node when the gesture stays in the scene",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "End",
+			"description": "Execute the next node when the gesture disappeared",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "None",
+			"description": "Keep executing the next node when no gesture is detected",
+			"type": "Pulse",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGGestureDetection.js",
+	"nodeEvent": "onUpdate",
+	"category": "Hand",
+	"description": "Detect hand gestures in the scene. To preview gestures, click Preview > Hand.",
+	"productTypes": [
+		"TTEH"
+	],
+	"graphAlgorithms": [
+		"2handGestureDetect"
+	],
+	"version": "1.0.1",
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Hand/Gesture-Detection"
+}

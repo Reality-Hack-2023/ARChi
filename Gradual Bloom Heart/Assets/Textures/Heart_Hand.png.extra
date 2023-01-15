@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "db83034a-63e2-a701-215d-c59ccdf84f26",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Heart_Hand",
+    "objGuid": "Guid(15727047700802406601, 13714688726392952742)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]
