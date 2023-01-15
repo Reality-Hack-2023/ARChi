@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "70972fb8-05ed-0f05-bef4-09d1a97f5203",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "heartEmoji",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

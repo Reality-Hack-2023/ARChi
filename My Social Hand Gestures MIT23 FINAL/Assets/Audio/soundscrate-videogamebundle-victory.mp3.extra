@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "6db44b8a-720a-73f7-5bd7-b3ab3b9a95c2",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "soundscrate-videogamebundle-victory",
+    "objGuid": "Guid(235585975867388727, 9204176434108796318)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

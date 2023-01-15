@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "53c6f33a-ad64-d87d-3123-431f4785d426",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "pinkHeart",
+    "objGuid": "Guid(2902845492921159155, 6720449512669243571)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(11766759018411482422, 15742129270674318008)"
+  }
+]

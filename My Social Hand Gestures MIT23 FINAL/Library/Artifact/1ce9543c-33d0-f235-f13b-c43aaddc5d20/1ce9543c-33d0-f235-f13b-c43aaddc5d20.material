@@ -1,0 +1,34 @@
+%YAML 1.1
+--- !Material &1
+name: flag_160961_edit
+guid: {a: 2469178003320401785, b: 16536774012441573016}
+xshader: {localId: 1, path: 1ce9543c-33d0-f235-f13b-c43aaddc5d20--1ce9543c-33d0-f235-f13b-c43aaddc5d20.xshader}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 7585971674072757191, b: 3155112013997183876}
+  floatmap:
+    __class: Map
+    _Rotation: 0
+  vec4map:
+    __class: Map
+    _AlbedoColor: {x: 1, y: 1, z: 1, w: 1}
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+    _Offset: {x: 0, y: 0}
+    _Tiling: {x: 1, y: 1}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    _AlbedoTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+    _OpacityTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000021--00000000-0000-0000-0000-000000000021.png}
+  intmap:
+    __class: Map
+renderQueue: -1
+enabledMacros:
+  __class: Map
+mshaderPath: ""
+instanceCount: 0

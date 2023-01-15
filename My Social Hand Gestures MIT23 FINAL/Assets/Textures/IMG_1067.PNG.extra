@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "13624bc0-a6af-aba5-2c4d-08b826692043",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "IMG_1067",
+    "objGuid": "Guid(12917789596443314802, 7334659365175237560)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

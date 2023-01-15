@@ -1,0 +1,52 @@
+{
+	"name": "Set Enabled",
+	"id": "103fe4b6-9a3b-dd7f-0456-761c663fef31",
+	"inputs": [
+		{
+			"name": "Enter",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "The input execution that triggers this node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Component",
+			"type": "Component",
+			"item_type": "",
+			"description": "The component to be enabled or disabled",
+			"displayType": "Component"
+		},
+		{
+			"name": "Enabled On",
+			"type": "Bool",
+			"item_type": "",
+			"default_value": "0",
+			"description": "True for enable the component, false for disable the component",
+			"displayType": "Boolean"
+		}
+	],
+	"outputs": [
+		{
+			"name": "Exit",
+			"type": "Pulse",
+			"item_type": "",
+			"description": "Execute the next node",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Enabled",
+			"type": "Bool",
+			"item_type": "",
+			"description": "The status of the component, true for enabled, false for disabled",
+			"displayType": "Boolean"
+		}
+	],
+	"js": "CGSetEnable.js",
+	"version": "1.1.0",
+	"category": "Utility",
+	"description": "Enable or disable a component.",
+	"productTypes": [
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Utility/Set-Enabled"
+}

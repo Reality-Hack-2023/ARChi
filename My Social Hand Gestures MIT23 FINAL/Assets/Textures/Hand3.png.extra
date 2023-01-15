@@ -1,0 +1,26 @@
+[
+  {
+    "guid": {
+      "a": "578d057a-50b5-6150-d86e-0faf1198c3e3",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "Hand3",
+    "objGuid": "Guid(4198822135593269523, 3386363859869499787)",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "compressionType": 0,
+    "quality": 0,
+    "maxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": true
+  }
+]

@@ -1,0 +1,47 @@
+{
+	"name": "Video Record",
+	"id": "4945a3e7-a2d3-b194-7c0c-b2e6a3d52c46",
+	"inputs": [],
+	"outputs": [
+		{
+			"name": "On Start",
+			"description": "Execute the next node when the recording starts",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Recording",
+			"description": "Keep executing the next node during recording",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "On Stop",
+			"description": "Execute the next node when the recording is stopped or paused",
+			"type": "Pulse",
+			"displayType": "Exec"
+		},
+		{
+			"name": "Not Recording",
+			"description": "Keep executing the next node when recording is not started",
+			"type": "Pulse",
+			"displayType": "Exec"
+		}
+	],
+	"js": "CGRecordVideo.js",
+	"version": "1.1.0",
+	"amazingVersion": "10.40.0",
+	"category": "Event",
+	"subCategory": "Effect Application",
+	"nodeEvent": [
+		"onEvent",
+		"onUpdate"
+	],
+	"description": "Execute the next node when recording. By default, in Effect House preview, it is always recording.",
+	"productTypes": [
+		"InHouse",
+		"Domestic",
+		"TTEH"
+	],
+	"onlineWebsite": "https://effecthouse.tiktok.com/learn/visual-scripting/Event/Video-Record"
+}

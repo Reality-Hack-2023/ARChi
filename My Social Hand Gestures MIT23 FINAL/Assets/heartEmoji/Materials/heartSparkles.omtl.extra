@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "3959c439-ba7f-3892-69cc-dbe5f733be7f",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "heartSparkles",
+    "objGuid": "Guid(594691042882351322, 14631689571022451588)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(3693616585918404665, 5503936804758369692)"
+  }
+]

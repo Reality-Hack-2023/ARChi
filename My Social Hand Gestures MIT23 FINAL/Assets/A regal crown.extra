@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "90e4286a-4ec5-ec32-b822-971d07cba230",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "A regal crown",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

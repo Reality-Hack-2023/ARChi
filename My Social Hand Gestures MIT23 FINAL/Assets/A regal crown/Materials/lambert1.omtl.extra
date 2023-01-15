@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "1d420aa4-f76e-d377-813c-01c5bb51d183",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "lambert1",
+    "objGuid": "Guid(8737455313256964498, 6996675194299151773)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(6215595249487423017, 11047966910960858530)"
+  }
+]

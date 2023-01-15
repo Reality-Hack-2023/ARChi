@@ -1,0 +1,25 @@
+[
+  {
+    "guid": {
+      "a": "28b4f6cd-416e-85ec-4067-9b7cf497ad08",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "A regal crown",
+    "objGuid": "Guid(1534274933421412381, 17232445538680058519)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "1d420aa4-f76e-d377-813c-01c5bb51d183"
+    ],
+    "meshGUIDs": [
+      "ca1a1291-7b9f-99c6-25a3-8410f6782601"
+    ],
+    "animazGUIDs": []
+  }
+]
