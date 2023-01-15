@@ -1,0 +1,29 @@
+[
+  {
+    "guid": {
+      "a": "eabd0ac7-9d7d-6583-6c52-ae918c0c62cf",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "pigeonhead_animationtest1",
+    "objGuid": "Guid(5324714529833823171, 156011618263574948)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a",
+      "38c61796-b337-79ef-0051-6a2f202f6cb3"
+    ],
+    "meshGUIDs": [
+      "17eeb989-f4db-7a2f-204e-b29b8cc4b3f2",
+      "40155b2a-2c34-6137-93ae-ada81227fcef"
+    ],
+    "animazGUIDs": [
+      "8bc67750-4385-133a-d1aa-3c01cf1d36f2"
+    ]
+  }
+]

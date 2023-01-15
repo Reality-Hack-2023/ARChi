@@ -1,0 +1,27 @@
+[
+  {
+    "guid": {
+      "a": "f40c6268-a4da-f4a7-919b-16de71d1bc56",
+      "b": ""
+    },
+    "extraType": "ResItemAssimpAsset",
+    "name": "pigeon_3",
+    "objGuid": "Guid(5022079341562517676, 17168381020281670843)",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "importAnimation": true,
+    "importVertexColor": true,
+    "importBlendshape": true,
+    "materialsGUIDs": [
+      "9b568201-94f3-0cae-6239-9a17d42f8398",
+      "33f9bc32-a1df-5afc-1d86-38a39872c7e5"
+    ],
+    "meshGUIDs": [
+      "cd09dc8f-e6b2-73d3-b2ed-6af46cc8c048",
+      "eff56892-5b6f-7c98-9f62-ac270222c683"
+    ],
+    "animazGUIDs": []
+  }
+]

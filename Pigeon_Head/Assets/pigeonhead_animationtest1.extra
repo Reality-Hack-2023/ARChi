@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "e70efbac-686e-5f29-d1ab-d1ac40b64b36",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "pigeonhead_animationtest1",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

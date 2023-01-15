@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "0bbf67f1-77b3-9bf2-ea80-bcf56e68e9dc",
+      "b": ""
+    },
+    "extraType": "ResItemMP3",
+    "name": "592310__mt-moon8__sound-funny-1",
+    "objGuid": "Guid(5654179012893595993, 7045867209729749154)",
+    "rttiType": "AudioClip",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "mccState": "SUCCESS"
+  }
+]

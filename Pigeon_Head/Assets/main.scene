@@ -1,0 +1,2791 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 17892678610801857370, b: 559697082159424149}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: ""
+        guid: {a: 12556560734000964803, b: 7508859945702231687}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 10
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: Directional Light
+    guid: {a: 3261253174792506660, b: 16680708562180406145}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 3}
+      - __class: DirectionalLight
+        name: ""
+        guid: {a: 13350271480239526722, b: 3096813384112271290}
+        enabled: true
+        color: {x: 1, y: 1, z: 1}
+        intensiy: 1
+        shadowEnable: false
+        shadowEnableNew: false
+        shadowResolution: {x: 256, y: 256}
+        shadowBias: 0
+        shadowStrength: 1
+        useSoftShadow: false
+        shadowSoftness: 1
+        blurRadius: 1.299999952316284
+        blurNum: 0
+        selfShadowGradient: 0
+        shadowColor: {x: 0, y: 0, z: 0}
+        InitStrength: 0.300000011920929
+        EsmC: 0.03500000014901161
+        lightingLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderMode:
+          __class: LightRenderMode
+          value: AUTO
+        shadowArea: 100
+        autoShadowFrustum: true
+        shadowFrustumZNear: 1
+        shadowFrustumZFar: 100
+        cookieSize: 1
+        softShadowType:
+          __class: SoftShadowType
+          value: PCF
+        EVSMExponents: {x: 4, y: 4}
+        contactShadowEnable: false
+        lightUnit:
+          __class: LightUnit
+          value: Lux
+    layer: 0
+  - __class: Entity
+    name: Head Tracker
+    guid: {a: 5582992391073168449, b: 9030767351435741342}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 5495889594830231769, b: 75360887117078689}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head Tracker (1)
+    guid: {a: 5485590252295855514, b: 13953107807710464656}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 5312553949921303763, b: 9593086014831635335}
+        enabled: true
+        faceid: 1
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head Tracker (2)
+    guid: {a: 4767873965940435760, b: 13845715077391037873}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 32}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 4680080636432815367, b: 17911475298345616796}
+        enabled: true
+        faceid: 2
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head Tracker (3)
+    guid: {a: 5336255199678971539, b: 15646372599428233882}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 46}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 5049127765590222588, b: 11782701303146297243}
+        enabled: true
+        faceid: 3
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head Tracker (4)
+    guid: {a: 5111375180775774475, b: 11137498272525299115}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 60}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 5576594553688394457, b: 2914398096528019587}
+        enabled: true
+        faceid: 4
+        captureType:
+          __class: CaptureType
+          value: HUMAN
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head Tracker (5)
+    guid: {a: 4701996779319365771, b: 929116718320194229}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 74}
+      - __class: FaceCapture
+        name: ""
+        guid: {a: 4626758837178253005, b: 843006477716733874}
+        enabled: true
+        faceid: 0
+        captureType:
+          __class: CaptureType
+          value: CAT
+        captureVersion:
+          __class: CaptureVersion
+          value: SOLVEPNP
+        alignoffset: {x: 0, y: 0}
+        alignz: 5
+        isGlobal: true
+        useSceneCameraFov: false
+        isPictureMode: false
+        isFaceCaptureEnable: true
+        calirateVersion:
+          __class: CalibrationType
+          value: V5
+        nearPlane: 0.1000000014901161
+        farPlane: 10000
+        useSceneCameraNearFar: false
+        behaviorWhenTrackerDisappear:
+          __class: BehaviorWhenTrackerDisappear
+          value: ALIGN_VISIBILITY_WITH_TRACKER
+        entityRotateType:
+          __class: EntityRotateType
+          value: ROTATE_AROUND_XYZ_AXIS
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 5282417541264237241, b: 8980002860735039910}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 5}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 5033944595497834970, b: 14373495911014627005}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 5367713709371842809, b: 15378393490516525745}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5525376555146492233, b: 14995983033206717351}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 7}
+      - __class: Animator
+        name: ""
+        guid: {a: 5279666415576494099, b: 17151867149416812955}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 4822016441159185454, b: 13212551629406164392}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 4890697592719926612, b: 5630969372473034399}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 4706519020284525049, b: 7302776285481139}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 10}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5627342895807660887, b: 16340318010072390831}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 4692632397830871893, b: 9144292880832151969}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 12}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 4970832337813327225, b: 7862355231728398526}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 13}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5659709076598632243, b: 17719237874839193743}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5311400357055325465, b: 15247317184564534420}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 5137985071580852135, b: 14276386679462718904}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 15}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5051385618249136103, b: 15416728760661578626}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 16}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 4898936492270645419, b: 8247767696541793415}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 17}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 4762793709433657063, b: 1933302983260475293}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 14}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5273972928167595564, b: 1816988964628566454}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5752158608692075190, b: 367452740017557632}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5518929575653535427, b: 12351045703617657494}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 16}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5365018623593326123, b: 7790454046663444391}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 17}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 5532337477097337927, b: 3659153102069593276}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 4851277461687293612, b: 4321692891343261844}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 16}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 4737105387786015207, b: 13977087611563811774}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: Audio Player
+    guid: {a: 5041511885851549811, b: 5620361379708031666}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 88}
+      - __class: JSScriptComponent
+        name: AudioComponent
+        guid: {a: 5559931718151726591, b: 814337177955497357}
+        enabled: true
+        path: js/AudioComponent.js
+        properties:
+          __class: Map
+          autoPlay: true
+          duration: 14837
+          isPreview: true
+          loopAmount: 5
+          mute: false
+          playMode: Loop
+          resPath: audio/0bbf67f1-77b3-9bf2-ea80-bcf56e68e9dc.mp3
+          volume: 50.92
+    layer: 0
+  - __class: Entity
+    name: 2D Background Camera
+    guid: {a: 4826633852152149122, b: 5362229474728057270}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 89}
+      - __class: Camera
+        name: ""
+        guid: {a: 5195011243874097769, b: 6364360991684199615}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [4, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 2
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 5316532537204107242, b: 3562403711238350733}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5369625475698339112, b: 8512961352016808330}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 4
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5104860434484166526, b: 10844870731744628894}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 4848458698500265693, b: 4353587604773972140}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 29}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5243946181009050598, b: 3231512148583094414}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 30}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 4722915092487341902, b: 7633093487589359006}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 31}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5015025030504232457, b: 7007344532598511029}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 21}
+      - __class: Animator
+        name: ""
+        guid: {a: 5594708608933797253, b: 4184059249757888150}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+        layers:
+          - {localId: 90}
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 5624118817481118769, b: 681924354808043432}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 19}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 4615288752397575086, b: 17128040327875671185}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 3
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 4712579787001818332, b: 15934660425518966963}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 20}
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 5586222477124456376, b: 14870176899267342249}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 4847331345595779265, b: 4126395254841945278}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5609724299211573122, b: 6682083124453649820}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5210487462475831514, b: 10077283426667595682}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 5201776866845192072, b: 17484490682970018487}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 26}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 4733007442790230764, b: 16700200742802494635}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5608919127656215089, b: 3694273588951722648}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 5
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5112960385389934914, b: 310798889889108630}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5290038144092544993, b: 6987220218637758135}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 30}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5686861419942426307, b: 9839217003841150595}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 31}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 5571295766986014276, b: 18352809837186888622}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 29}
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 4724365476835390833, b: 6767144304921330836}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 30}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 5617021117146182001, b: 15278095528809901974}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 31}
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 5444019883111297195, b: 6239729788492378262}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 34}
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 4998464341306072927, b: 8967297636576876463}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 33}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 4867363228594245669, b: 17593654141236710335}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 6
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5580035120522218857, b: 10265799983877230255}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 35}
+      - __class: Animator
+        name: ""
+        guid: {a: 5081088818031717826, b: 16600833452419444109}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+        layers:
+          - {localId: 91}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 5181594542964016935, b: 15163664302122227359}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 42}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5289311818295749901, b: 11043131509370153875}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 8
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4740781693925329570, b: 5380054555528721030}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5013509526362455101, b: 13845670337950693786}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 44}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5006798222313681136, b: 3191058108922960827}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 45}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 5160207295746174197, b: 15487933186546957216}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 36}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5344876958391369661, b: 96297165963457947}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 37}
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 5179419160086646772, b: 2660749737424627584}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 38}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5504331420811446197, b: 5497433788056492937}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 39}
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 5205574535667827379, b: 12307405282404027035}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 40}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 5361499005638915827, b: 2947207329148612275}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 41}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4707800159892884186, b: 18259162732400696741}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 7
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5386739028799233284, b: 10529248055260559258}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 4972184146870166573, b: 16738748041742125484}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 43}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5368657657900865717, b: 8732068752944758448}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 44}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5284145590104177891, b: 15829122029681149569}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 45}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 4844371042558799418, b: 9293847703450262953}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 43}
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 4900910815447150676, b: 5511148885114019006}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 44}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 5017061000183782061, b: 1470376943511656853}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 45}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5546829813829371696, b: 12000433864329636993}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 53}
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 4706574330316456016, b: 14956616423688682941}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 47}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 5237514634756022694, b: 17355273263968874144}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 9
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 5410128561161730369, b: 10555954303092436353}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 48}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5418461881597236277, b: 17962915163852382108}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 49}
+      - __class: Animator
+        name: ""
+        guid: {a: 4740569160652552052, b: 4245284009149383561}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+        layers:
+          - {localId: 92}
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 5318679023757431895, b: 917624533696104345}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 50}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5042169388727362874, b: 1803904891394166427}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 51}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 5077958782018210529, b: 3109773258616786103}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 56}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5107650080598351507, b: 16950627890807522688}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 11
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5601266877368580508, b: 12729403994256054185}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 4710749550353634004, b: 5124859354964193182}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 58}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5650780838514486069, b: 18011751053908131754}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 59}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 5080154453735963599, b: 1891547483643306916}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 52}
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 5080511298871999846, b: 1499785736811489969}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 57}
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 5233430708550160612, b: 15794630127083538563}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 54}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 5410852338894101558, b: 16554252340240260}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 55}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5677095739430001336, b: 11505439495189057418}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 10
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4622152640073903128, b: 4861163375113009814}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 5625295903850315510, b: 12891879109281406870}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 57}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5006930986837149195, b: 2865597770627599542}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 58}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5481044608135723189, b: 14583421865902585245}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 59}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 4970872932282207192, b: 1643736056311174300}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 58}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 4918875976318922697, b: 12276927713089853371}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 59}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 5308014770638437418, b: 10220105447170646701}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 73}
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 4850881670599961676, b: 10915488897070345865}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 62}
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 5212388094158567093, b: 10402069921040225976}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 61}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 4717774013882809191, b: 2695348268447690415}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 12
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000005}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 4648478064142722566, b: 15328611537169294486}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 64}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 5070729648408068799, b: 11114697757057832376}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 69}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5326754086428653141, b: 15763302789807649931}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 13
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4924959889037336976, b: 15142366272355286161}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 5376366272675367977, b: 13269673582164444596}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 71}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5244834988034074082, b: 4905337726752072093}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 72}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5202564224737538587, b: 14084175248827660701}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 73}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4789234627031965401, b: 15150807763428344744}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 63}
+      - __class: Animator
+        name: ""
+        guid: {a: 4833433798207109889, b: 15803345087184093828}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+        layers:
+          - {localId: 93}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5417161981466232558, b: 8394319329298066079}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 65}
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 5210943153977936095, b: 8566206372132470193}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 66}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5368534768682164455, b: 17617029415326740136}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 67}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 5606025209701947091, b: 6790885690947473801}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 70}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5075621744156703589, b: 15671072638622071226}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 14
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 4993347420134690721, b: 4134067506422289847}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 4851669632608910162, b: 1380245260481082528}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 72}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5025496451352450821, b: 4343255048766688151}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 73}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 4937930592780555879, b: 2798055291543170466}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 68}
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 5679096420763076064, b: 4658143711585006249}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 71}
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 4999544485328393828, b: 48101933762576022}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 72}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh0
+    guid: {a: 4869641020054245373, b: 4646826598986775217}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 83}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5531681477416083449, b: 16626639936249029764}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a--9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a-skin.material}
+        sortingOrder: 16
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh0.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5473423179115767977, b: 14172945410805883832}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Neck.1
+              guid: {a: 4933540393830421991, b: 16657454687449069193}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, 0, -0, -0, 1, -0, 0, 0, -0, 1, -0, -0, 0.4374555, -0, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 85}
+            - __class: Joint
+              name: Face.1
+              guid: {a: 5012164745165900392, b: 10394731202006952070}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 86}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5235107554142041837, b: 12305372941941113018}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 87}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Head
+    guid: {a: 5560287182837170579, b: 14864492762753260727}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 75}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 4885474201053307336, b: 16251771745854423682}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000071--00000000-0000-0000-0000-000000000071.material}
+        sortingOrder: 15
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 00000000-0000-0000-0000-000000000098}
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: pigeonhead_animationtest1
+    guid: {a: 5637572182604519669, b: 16599862185248312220}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 76}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5367605494667388579, b: 10801310724205574273}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 77}
+      - __class: Animator
+        name: ""
+        guid: {a: 5661795091809736884, b: 5321944577841270696}
+        enabled: true
+        animations:
+          - {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--ArmatureAction.animaz}
+        runningWrapModes:
+          __class: Map
+          ArmatureAction: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+        layers:
+          - {localId: 94}
+    layer: 0
+  - __class: Entity
+    name: pigeon3.obj.cleaner
+    guid: {a: 5516871003741467580, b: 3869143098573595794}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 80}
+    layer: 0
+  - __class: Entity
+    name: Armature
+    guid: {a: 5590282303114817159, b: 15151579181533474458}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 81}
+    layer: 0
+  - __class: Entity
+    name: ROOT
+    guid: {a: 5508428693682662341, b: 5016976133529381527}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 78}
+    layer: 0
+  - __class: Entity
+    name: Neck.1
+    guid: {a: 5452864485778074832, b: 2410800403701183371}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 85}
+    layer: 0
+  - __class: Entity
+    name: Object_3_submesh1
+    guid: {a: 5096570484325708158, b: 7992135907904908185}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 84}
+      - __class: SkinMeshRenderer
+        name: mesh1_renderer
+        guid: {a: 5537287664590481305, b: 9825270373280471473}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 38c61796-b337-79ef-0051-6a2f202f6cb3--38c61796-b337-79ef-0051-6a2f202f6cb3-skin.material}
+        sortingOrder: 17
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: eabd0ac7-9d7d-6583-6c52-ae918c0c62cf--Object_3_submesh1.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+        skin:
+          __class: Skin
+          name: ""
+          guid: {a: 5469856294119236049, b: 15465692159015037350}
+          skelRootName: ""
+          joints:
+            - __class: Joint
+              name: Face.1
+              guid: {a: 4735166975409489743, b: 10345392180709333669}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -0, -2.384186e-07, -0, -1.675065e-07, 0.7116114, -0.7025732, 0, 1.696614e-07, 0.7025732, 0.7116114, -0, 1.277148e-07, -0.5425659, 0.5356748, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 86}
+            - __class: Joint
+              name: Beak.1
+              guid: {a: 5425626806618194208, b: 15285152587217048244}
+              invBindPosMatrix: {__class: Matrix4x4f, values: [1, -7.105429e-15, -2.384186e-07, -0, -2.34738e-07, -0.1750332, -0.9845626, 0, -4.173119e-08, 0.9845627, -0.1750333, -0, 4.367687e-07, -0.6111588, 1.831941, 1]}
+              boundingBox: {min: {x: -1000, y: -1000, z: -1000}, max: {x: 1000, y: 1000, z: 1000}}
+              jointTransform: {localId: 87}
+          positionOnly: false
+          useTangent: true
+    layer: 0
+  - __class: Entity
+    name: Face.1
+    guid: {a: 5415880420160566325, b: 7575356346221662365}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 86}
+    layer: 0
+  - __class: Entity
+    name: Sketchfab_model
+    guid: {a: 5461306024163360311, b: 16177965554235132598}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 79}
+    layer: 0
+  - __class: Entity
+    name: Object_3
+    guid: {a: 4626431064329705456, b: 13675010679229469363}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 82}
+    layer: 0
+  - __class: Entity
+    name: Beak.1
+    guid: {a: 5285105987632315585, b: 4192319092986748553}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 87}
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/EditorInjectSystem.js
+  - js/Main.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+--- !Transform &2
+name: ""
+guid: {a: 1029434961439008335, b: 6372224128272086966}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 10827949423485651365, b: 543587625606924957}
+enabled: true
+localPosition: {x: -30, y: 20, z: -20}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.6123723, x: -0.3535534, y: -0.6123725, z: -0.3535534}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: ""
+guid: {a: 5708518823556087668, b: 4664627177627023550}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 5}
+  - {localId: 6}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ""
+guid: {a: 4912245513554729573, b: 4184003663091253418}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: ""
+guid: {a: 4642415497183314866, b: 4812446952350978741}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 4}
+children:
+  - {localId: 7}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: RootNode
+guid: {a: 5171385713253319953, b: 17307156086645492146}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 6}
+children:
+  - {localId: 8}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: ROOT
+guid: {a: 5213382135263550433, b: 7700121518213993097}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 7}
+children:
+  - {localId: 9}
+  - {localId: 11}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: Sketchfab_model
+guid: {a: 5642221573631013479, b: 8956805405268428952}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+children:
+  - {localId: 10}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: pigeon3.obj.cleaner
+guid: {a: 5081811356232170987, b: 17512312691531429812}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: Armature
+guid: {a: 5245968674186832369, b: 2220154298266866824}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 8}
+children:
+  - {localId: 12}
+  - {localId: 15}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: Object_3
+guid: {a: 5094371233304180968, b: 1560680906743653809}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+children:
+  - {localId: 13}
+  - {localId: 14}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: ""
+guid: {a: 4634447846069293118, b: 10466597769014821306}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: ""
+guid: {a: 5330668856478705244, b: 10596872000975477920}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: Neck.1
+guid: {a: 5286206048499362677, b: 14833203354274524046}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+children:
+  - {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: Face.1
+guid: {a: 5647966246058778329, b: 8226443288026302399}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 15}
+children:
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: Beak.1
+guid: {a: 5763434263554375142, b: 10828201722644002221}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 16}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: ""
+guid: {a: 4861473811815748876, b: 1425688372206031000}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 19}
+  - {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: ""
+guid: {a: 4931820727229201561, b: 8027110400002010527}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: ""
+guid: {a: 5048079904829175191, b: 16748568149352590476}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 18}
+children:
+  - {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: RootNode
+guid: {a: 5258126543556932836, b: 3050204644260556963}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: ROOT
+guid: {a: 4787509966971576606, b: 17177697648483459495}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+children:
+  - {localId: 23}
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: Sketchfab_model
+guid: {a: 4960688805161872546, b: 552801780856516483}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 22}
+children:
+  - {localId: 24}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: pigeon3.obj.cleaner
+guid: {a: 5045512958504658110, b: 8205332122308875145}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: Armature
+guid: {a: 4725736859990928651, b: 857557344385248909}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 22}
+children:
+  - {localId: 26}
+  - {localId: 29}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: Object_3
+guid: {a: 4762254179381626750, b: 10415340239412215689}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 25}
+children:
+  - {localId: 27}
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &27
+name: ""
+guid: {a: 4965967917603071893, b: 14348811308791481728}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: ""
+guid: {a: 5553718722125090832, b: 3342120904191791008}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &29
+name: Neck.1
+guid: {a: 4667451518308501230, b: 1626952274879164330}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 25}
+children:
+  - {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &30
+name: Face.1
+guid: {a: 5079387906199271477, b: 1447855537319103671}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 29}
+children:
+  - {localId: 31}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &31
+name: Beak.1
+guid: {a: 5267399801973343699, b: 16680866975509227452}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 30}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &32
+name: ""
+guid: {a: 4867870136247878789, b: 8118702859380378298}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 33}
+  - {localId: 34}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &33
+name: ""
+guid: {a: 5128101116947937632, b: 11165762908919721610}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 32}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &34
+name: ""
+guid: {a: 5213829276006637477, b: 7169816243428111232}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 32}
+children:
+  - {localId: 35}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &35
+name: RootNode
+guid: {a: 4654846324520030212, b: 12685818869495507848}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 34}
+children:
+  - {localId: 36}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &36
+name: ROOT
+guid: {a: 5356025690981314426, b: 106464103582636165}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 35}
+children:
+  - {localId: 37}
+  - {localId: 39}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &37
+name: Sketchfab_model
+guid: {a: 5477741949895214463, b: 17802849320370814896}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 36}
+children:
+  - {localId: 38}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &38
+name: pigeon3.obj.cleaner
+guid: {a: 5125283592348863340, b: 5519602311440632711}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 37}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &39
+name: Armature
+guid: {a: 4739793742582438030, b: 8546070481554619322}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 36}
+children:
+  - {localId: 40}
+  - {localId: 43}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &40
+name: Object_3
+guid: {a: 4733857950364684834, b: 11598392920514767256}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 39}
+children:
+  - {localId: 41}
+  - {localId: 42}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &41
+name: ""
+guid: {a: 5374252931356071042, b: 16761079701248384417}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &42
+name: ""
+guid: {a: 5594105175874330597, b: 4815350234670508732}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 40}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &43
+name: Neck.1
+guid: {a: 5434925109689822121, b: 76274835041563816}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 39}
+children:
+  - {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &44
+name: Face.1
+guid: {a: 5666238294764540159, b: 18387331010703944072}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 43}
+children:
+  - {localId: 45}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &45
+name: Beak.1
+guid: {a: 4680293952503905484, b: 12539193514272219526}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 44}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &46
+name: ""
+guid: {a: 4913966511365576588, b: 11096496227489524879}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 47}
+  - {localId: 48}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &47
+name: ""
+guid: {a: 4996757266964048653, b: 1853094516168849853}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 46}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &48
+name: ""
+guid: {a: 4631612592829962831, b: 11382402449176250502}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 46}
+children:
+  - {localId: 49}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &49
+name: RootNode
+guid: {a: 5255002530141741272, b: 14760807373374876824}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 48}
+children:
+  - {localId: 50}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &50
+name: ROOT
+guid: {a: 4989777588145891961, b: 6285729396048828605}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 49}
+children:
+  - {localId: 51}
+  - {localId: 53}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &51
+name: Sketchfab_model
+guid: {a: 4919306884793301361, b: 1748704061990316672}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 50}
+children:
+  - {localId: 52}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &52
+name: pigeon3.obj.cleaner
+guid: {a: 5509883742755541512, b: 11780163492787781273}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 51}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &53
+name: Armature
+guid: {a: 5164362359245888349, b: 14809717292423401122}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 50}
+children:
+  - {localId: 54}
+  - {localId: 57}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &54
+name: Object_3
+guid: {a: 4957516504485346153, b: 10492436033272693428}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 53}
+children:
+  - {localId: 55}
+  - {localId: 56}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &55
+name: ""
+guid: {a: 5060569029389926437, b: 17009883232837134256}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 54}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &56
+name: ""
+guid: {a: 5278792744668660103, b: 5980256766034314410}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 54}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &57
+name: Neck.1
+guid: {a: 5151032318196305589, b: 13170487630092363684}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 53}
+children:
+  - {localId: 58}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &58
+name: Face.1
+guid: {a: 5464702177473781692, b: 14492914477649347226}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 57}
+children:
+  - {localId: 59}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &59
+name: Beak.1
+guid: {a: 5061885601357286369, b: 4585515274302040196}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 58}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &60
+name: ""
+guid: {a: 5338020607790207554, b: 13408036244640014231}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 61}
+  - {localId: 62}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &61
+name: ""
+guid: {a: 5084109285389244831, b: 11705301095000377746}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 60}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &62
+name: ""
+guid: {a: 5403053038578039200, b: 18011255544595407265}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 60}
+children:
+  - {localId: 63}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &63
+name: RootNode
+guid: {a: 4886474665509040937, b: 17396193376506273716}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 62}
+children:
+  - {localId: 64}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &64
+name: ROOT
+guid: {a: 5681457496916301990, b: 17643463049838476679}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 63}
+children:
+  - {localId: 65}
+  - {localId: 67}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &65
+name: Sketchfab_model
+guid: {a: 4757920948370937150, b: 5724707013767295145}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+children:
+  - {localId: 66}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &66
+name: pigeon3.obj.cleaner
+guid: {a: 5205936305849094772, b: 3702603236385688246}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 65}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &67
+name: Armature
+guid: {a: 4853770393478076013, b: 13568258935738147968}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 64}
+children:
+  - {localId: 68}
+  - {localId: 71}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &68
+name: Object_3
+guid: {a: 5045524718156894053, b: 13959520514254004151}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 67}
+children:
+  - {localId: 69}
+  - {localId: 70}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &69
+name: ""
+guid: {a: 4952898369118686389, b: 17896210801521330870}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &70
+name: ""
+guid: {a: 5283764988822029976, b: 11163697862322180774}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 68}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &71
+name: Neck.1
+guid: {a: 5402068436064358537, b: 350200662324544134}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 67}
+children:
+  - {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &72
+name: Face.1
+guid: {a: 5328069871052706717, b: 11158490129186852287}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 71}
+children:
+  - {localId: 73}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &73
+name: Beak.1
+guid: {a: 5437003509715894281, b: 16731147784676714665}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 72}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &74
+name: ""
+guid: {a: 5708399446303444925, b: 14868875560043410862}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 75}
+  - {localId: 76}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &75
+name: ""
+guid: {a: 5225586562501549042, b: 13282922358177857168}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 74}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &76
+name: ""
+guid: {a: 5730076232770629120, b: 13984107826991280056}
+enabled: true
+localPosition: {x: -0.1651563, y: 9.821206, z: 0.1134937}
+localScale: {x: 3.44131, y: 3.44131, z: 3.44131}
+localOrientation: {w: 0.8815638, x: 0.4708498, y: 0.01594631, z: 0.02985599}
+parent: {localId: 74}
+children:
+  - {localId: 77}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &77
+name: RootNode
+guid: {a: 5424958685799570339, b: 6091669446726627243}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 76}
+children:
+  - {localId: 78}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &78
+name: ROOT
+guid: {a: 5381087555312141156, b: 8886045948270944440}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 77}
+children:
+  - {localId: 79}
+  - {localId: 81}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &79
+name: Sketchfab_model
+guid: {a: 4665026479503476032, b: 3293625776687201438}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 78}
+children:
+  - {localId: 80}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &80
+name: pigeon3.obj.cleaner
+guid: {a: 4852558947835975411, b: 16572463791277096875}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 79}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &81
+name: Armature
+guid: {a: 5690701011943896361, b: 13330457417630223785}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 78}
+children:
+  - {localId: 82}
+  - {localId: 85}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &82
+name: Object_3
+guid: {a: 5159702907227357181, b: 8976342775967414956}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 81}
+children:
+  - {localId: 83}
+  - {localId: 84}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &83
+name: ""
+guid: {a: 4627845317172533233, b: 8466702645992216999}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 82}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &84
+name: ""
+guid: {a: 5108107408726438758, b: 14127683914781136551}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 82}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &85
+name: Neck.1
+guid: {a: 5248328300502728760, b: 673201364502345350}
+enabled: true
+localPosition: {x: 0, y: -0.4374555, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 81}
+children:
+  - {localId: 86}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &86
+name: Face.1
+guid: {a: 4914959930209690536, b: 5626747682662955955}
+enabled: true
+localPosition: {x: 0, y: 1.199902, z: 0}
+localScale: {x: 1, y: 0.9999999, z: 1}
+localOrientation: {w: 0.9513683, x: 0.3047763, y: -0.03565016, z: -0.02718296}
+parent: {localId: 85}
+children:
+  - {localId: 87}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &87
+name: Beak.1
+guid: {a: 4944860258486678070, b: 4243253165521966721}
+enabled: true
+localPosition: {x: -1.117586e-08, y: 1.312852, z: -1.719668e-07}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 0.8852039, x: 0.4652033, y: 5.516266e-09, z: -1.07521e-07}
+parent: {localId: 86}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &88
+name: ""
+guid: {a: 5545114631405690298, b: 4850008250627406729}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &89
+name: ""
+guid: {a: 5091308503188169263, b: 6826024032764814262}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !AnimLayer &90
+name: _defaultLayer
+guid: {a: 4706207135400391511, b: 4098889412629392800}
+layerType:
+  __class: LayerType
+  value: LERP
+blendWeight: 1
+autoPlay: true
+--- !AnimLayer &91
+name: _defaultLayer
+guid: {a: 4813627104269649680, b: 5760072302580395705}
+layerType:
+  __class: LayerType
+  value: LERP
+blendWeight: 1
+autoPlay: true
+--- !AnimLayer &92
+name: _defaultLayer
+guid: {a: 4769697281275273667, b: 2779398440724358791}
+layerType:
+  __class: LayerType
+  value: LERP
+blendWeight: 1
+autoPlay: true
+--- !AnimLayer &93
+name: _defaultLayer
+guid: {a: 4922563204664177278, b: 5711881876208417159}
+layerType:
+  __class: LayerType
+  value: LERP
+blendWeight: 1
+autoPlay: true
+--- !AnimLayer &94
+name: _defaultLayer
+guid: {a: 5102602955240819341, b: 4842196464034063294}
+layerType:
+  __class: LayerType
+  value: LERP
+blendWeight: 1
+autoPlay: true

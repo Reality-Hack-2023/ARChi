@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "9ae4889e-9ee5-1d6c-84f7-5c6bf4a7469a",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "pigeon1",
+    "objGuid": "Guid(5325849210969699916, 13092420348146940811)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4723706365510219406, 15557696231690258817)"
+  }
+]

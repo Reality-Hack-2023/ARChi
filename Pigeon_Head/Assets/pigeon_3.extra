@@ -1,0 +1,13 @@
+[
+  {
+    "guid": {
+      "a": "d8e1abac-d2f7-d1e2-9f9b-abf71b4ad8f7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "pigeon_3",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

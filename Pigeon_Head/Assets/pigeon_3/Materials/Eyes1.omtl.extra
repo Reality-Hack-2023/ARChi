@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "9b568201-94f3-0cae-6239-9a17d42f8398",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Eyes1",
+    "objGuid": "Guid(5709674772033127152, 6956764567837416111)",
+    "rttiType": "Material",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "skinObjGuid": "Guid(4764286338671429106, 11178886670572075678)"
+  }
+]
