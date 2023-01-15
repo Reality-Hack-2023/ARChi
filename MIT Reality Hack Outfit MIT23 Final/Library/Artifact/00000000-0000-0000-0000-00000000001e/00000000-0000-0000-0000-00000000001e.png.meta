@@ -1,0 +1,30 @@
+%YAML 1.1
+--- !PngMeta &1
+name: ""
+guid: {a: 3406694190373341827, b: 1884330535217104062}
+innerAlphaPremul: true
+outerAlphaPremul: true
+enableMipmap: false
+filterMin:
+  __class: FilterMode
+  value: LINEAR
+filterMag:
+  __class: FilterMode
+  value: LINEAR
+filterMipmap:
+  __class: FilterMipmapMode
+  value: NONE
+wrapModeS:
+  __class: WrapMode
+  value: REPEAT
+wrapModeT:
+  __class: WrapMode
+  value: REPEAT
+wrapModeR:
+  __class: WrapMode
+  value: REPEAT
+maxAnisotropy: 1
+isColorTexture: false
+maxTextureSize:
+  __class: TextureResizeLevel
+  value: OFF
